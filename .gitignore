@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+vector_store/
+.env
+logs/*.jsonl
+logs/email_drafts/*.txt
+/run_all.log
+/results_for_report.zip
+.adk/

@@ -1,0 +1,1298 @@
+
+================ 1/8  Checking Python and Ollama ================
+
+================ 2/8  Starting Ollama server ================
+Ollama is running.
+
+================ 3/8  Downloading models (about 10 GB the first time) ================
+[?2026h[?25l[1Gpulling manifest ⠋ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠹ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠸ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠼ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠴ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠦ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠧ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠇ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠏ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠋ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠹ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠸ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest [K
+pulling 667b0c1932bc:  22% ▕███               ▏ 1.1 GB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  22% ▕███               ▏ 1.1 GB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  22% ▕███               ▏ 1.1 GB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  22% ▕███               ▏ 1.1 GB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  22% ▕███               ▏ 1.1 GB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  22% ▕███               ▏ 1.1 GB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  22% ▕███               ▏ 1.1 GB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  22% ▕███               ▏ 1.1 GB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  22% ▕███               ▏ 1.1 GB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  22% ▕████              ▏ 1.1 GB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  22% ▕████              ▏ 1.1 GB/4.9 GB   27 MB/s   2m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  23% ▕████              ▏ 1.1 GB/4.9 GB   27 MB/s   2m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  23% ▕████              ▏ 1.1 GB/4.9 GB   27 MB/s   2m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  23% ▕████              ▏ 1.1 GB/4.9 GB   27 MB/s   2m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  23% ▕████              ▏ 1.1 GB/4.9 GB   27 MB/s   2m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  24% ▕████              ▏ 1.2 GB/4.9 GB   27 MB/s   2m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  24% ▕████              ▏ 1.2 GB/4.9 GB   27 MB/s   2m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  24% ▕████              ▏ 1.2 GB/4.9 GB   27 MB/s   2m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  24% ▕████              ▏ 1.2 GB/4.9 GB   27 MB/s   2m14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  24% ▕████              ▏ 1.2 GB/4.9 GB   27 MB/s   2m14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  24% ▕████              ▏ 1.2 GB/4.9 GB   66 MB/s     56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  25% ▕████              ▏ 1.2 GB/4.9 GB   66 MB/s     56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  25% ▕████              ▏ 1.2 GB/4.9 GB   66 MB/s     55s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  25% ▕████              ▏ 1.2 GB/4.9 GB   66 MB/s     55s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  25% ▕████              ▏ 1.2 GB/4.9 GB   66 MB/s     55s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  25% ▕████              ▏ 1.3 GB/4.9 GB   66 MB/s     55s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  26% ▕████              ▏ 1.3 GB/4.9 GB   66 MB/s     55s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  26% ▕████              ▏ 1.3 GB/4.9 GB   66 MB/s     55s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  26% ▕████              ▏ 1.3 GB/4.9 GB   66 MB/s     55s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  26% ▕████              ▏ 1.3 GB/4.9 GB   66 MB/s     54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  27% ▕████              ▏ 1.3 GB/4.9 GB   77 MB/s     46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  27% ▕████              ▏ 1.3 GB/4.9 GB   77 MB/s     46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  27% ▕████              ▏ 1.3 GB/4.9 GB   77 MB/s     46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  27% ▕████              ▏ 1.3 GB/4.9 GB   77 MB/s     46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  27% ▕████              ▏ 1.3 GB/4.9 GB   77 MB/s     46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  27% ▕████              ▏ 1.3 GB/4.9 GB   77 MB/s     46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  28% ▕████              ▏ 1.4 GB/4.9 GB   77 MB/s     46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  28% ▕█████             ▏ 1.4 GB/4.9 GB   77 MB/s     45s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  28% ▕█████             ▏ 1.4 GB/4.9 GB   77 MB/s     45s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  28% ▕█████             ▏ 1.4 GB/4.9 GB   77 MB/s     45s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  28% ▕█████             ▏ 1.4 GB/4.9 GB   81 MB/s     42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  29% ▕█████             ▏ 1.4 GB/4.9 GB   81 MB/s     42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  29% ▕█████             ▏ 1.4 GB/4.9 GB   81 MB/s     42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  29% ▕█████             ▏ 1.4 GB/4.9 GB   81 MB/s     42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  29% ▕█████             ▏ 1.4 GB/4.9 GB   81 MB/s     42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  29% ▕█████             ▏ 1.4 GB/4.9 GB   81 MB/s     42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  29% ▕█████             ▏ 1.4 GB/4.9 GB   81 MB/s     42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  29% ▕█████             ▏ 1.5 GB/4.9 GB   81 MB/s     42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  30% ▕█████             ▏ 1.5 GB/4.9 GB   81 MB/s     42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  30% ▕█████             ▏ 1.5 GB/4.9 GB   81 MB/s     42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  30% ▕█████             ▏ 1.5 GB/4.9 GB   81 MB/s     42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  30% ▕█████             ▏ 1.5 GB/4.9 GB   82 MB/s     41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  30% ▕█████             ▏ 1.5 GB/4.9 GB   82 MB/s     41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  31% ▕█████             ▏ 1.5 GB/4.9 GB   82 MB/s     41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  31% ▕█████             ▏ 1.5 GB/4.9 GB   82 MB/s     41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  31% ▕█████             ▏ 1.5 GB/4.9 GB   82 MB/s     41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  31% ▕█████             ▏ 1.5 GB/4.9 GB   82 MB/s     41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  31% ▕█████             ▏ 1.5 GB/4.9 GB   82 MB/s     41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  32% ▕█████             ▏ 1.6 GB/4.9 GB   82 MB/s     40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  32% ▕█████             ▏ 1.6 GB/4.9 GB   82 MB/s     40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  32% ▕█████             ▏ 1.6 GB/4.9 GB   82 MB/s     40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  32% ▕█████             ▏ 1.6 GB/4.9 GB   84 MB/s     39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  32% ▕█████             ▏ 1.6 GB/4.9 GB   84 MB/s     39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  33% ▕█████             ▏ 1.6 GB/4.9 GB   84 MB/s     39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  33% ▕█████             ▏ 1.6 GB/4.9 GB   84 MB/s     38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  33% ▕█████             ▏ 1.6 GB/4.9 GB   84 MB/s     38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  33% ▕█████             ▏ 1.6 GB/4.9 GB   84 MB/s     38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  33% ▕██████            ▏ 1.6 GB/4.9 GB   84 MB/s     38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  34% ▕██████            ▏ 1.7 GB/4.9 GB   84 MB/s     38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  34% ▕██████            ▏ 1.7 GB/4.9 GB   84 MB/s     38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  34% ▕██████            ▏ 1.7 GB/4.9 GB   84 MB/s     38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  34% ▕██████            ▏ 1.7 GB/4.9 GB   86 MB/s     37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  34% ▕██████            ▏ 1.7 GB/4.9 GB   86 MB/s     37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  35% ▕██████            ▏ 1.7 GB/4.9 GB   86 MB/s     37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  35% ▕██████            ▏ 1.7 GB/4.9 GB   86 MB/s     36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  35% ▕██████            ▏ 1.7 GB/4.9 GB   86 MB/s     36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  35% ▕██████            ▏ 1.7 GB/4.9 GB   86 MB/s     36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  35% ▕██████            ▏ 1.7 GB/4.9 GB   86 MB/s     36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  36% ▕██████            ▏ 1.8 GB/4.9 GB   86 MB/s     36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  36% ▕██████            ▏ 1.8 GB/4.9 GB   86 MB/s     36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  36% ▕██████            ▏ 1.8 GB/4.9 GB   86 MB/s     36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  36% ▕██████            ▏ 1.8 GB/4.9 GB   88 MB/s     35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  36% ▕██████            ▏ 1.8 GB/4.9 GB   88 MB/s     35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  37% ▕██████            ▏ 1.8 GB/4.9 GB   88 MB/s     35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  37% ▕██████            ▏ 1.8 GB/4.9 GB   88 MB/s     35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  37% ▕██████            ▏ 1.8 GB/4.9 GB   88 MB/s     35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  37% ▕██████            ▏ 1.8 GB/4.9 GB   88 MB/s     34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  37% ▕██████            ▏ 1.8 GB/4.9 GB   88 MB/s     34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  38% ▕██████            ▏ 1.8 GB/4.9 GB   88 MB/s     34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  38% ▕██████            ▏ 1.9 GB/4.9 GB   88 MB/s     34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  38% ▕██████            ▏ 1.9 GB/4.9 GB   88 MB/s     34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  38% ▕██████            ▏ 1.9 GB/4.9 GB   89 MB/s     33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  38% ▕██████            ▏ 1.9 GB/4.9 GB   89 MB/s     33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  39% ▕██████            ▏ 1.9 GB/4.9 GB   89 MB/s     33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  39% ▕██████            ▏ 1.9 GB/4.9 GB   89 MB/s     33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  39% ▕███████           ▏ 1.9 GB/4.9 GB   89 MB/s     33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  39% ▕███████           ▏ 1.9 GB/4.9 GB   89 MB/s     33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  39% ▕███████           ▏ 1.9 GB/4.9 GB   89 MB/s     33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  39% ▕███████           ▏ 1.9 GB/4.9 GB   89 MB/s     33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  40% ▕███████           ▏ 2.0 GB/4.9 GB   89 MB/s     33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  40% ▕███████           ▏ 2.0 GB/4.9 GB   89 MB/s     32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  40% ▕███████           ▏ 2.0 GB/4.9 GB   89 MB/s     32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  40% ▕███████           ▏ 2.0 GB/4.9 GB   97 MB/s     30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  41% ▕███████           ▏ 2.0 GB/4.9 GB   97 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  41% ▕███████           ▏ 2.0 GB/4.9 GB   97 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  41% ▕███████           ▏ 2.0 GB/4.9 GB   97 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  41% ▕███████           ▏ 2.0 GB/4.9 GB   97 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  41% ▕███████           ▏ 2.0 GB/4.9 GB   97 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  42% ▕███████           ▏ 2.0 GB/4.9 GB   97 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  42% ▕███████           ▏ 2.1 GB/4.9 GB   97 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  42% ▕███████           ▏ 2.1 GB/4.9 GB   97 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  42% ▕███████           ▏ 2.1 GB/4.9 GB   97 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  42% ▕███████           ▏ 2.1 GB/4.9 GB   96 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  42% ▕███████           ▏ 2.1 GB/4.9 GB   96 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  43% ▕███████           ▏ 2.1 GB/4.9 GB   96 MB/s     29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  43% ▕███████           ▏ 2.1 GB/4.9 GB   96 MB/s     28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  43% ▕███████           ▏ 2.1 GB/4.9 GB   96 MB/s     28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  43% ▕███████           ▏ 2.1 GB/4.9 GB   96 MB/s     28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  43% ▕███████           ▏ 2.1 GB/4.9 GB   96 MB/s     28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  44% ▕███████           ▏ 2.1 GB/4.9 GB   96 MB/s     28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  44% ▕███████           ▏ 2.2 GB/4.9 GB   96 MB/s     28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  44% ▕███████           ▏ 2.2 GB/4.9 GB   96 MB/s     28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  44% ▕███████           ▏ 2.2 GB/4.9 GB   96 MB/s     28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  44% ▕████████          ▏ 2.2 GB/4.9 GB   96 MB/s     28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  45% ▕████████          ▏ 2.2 GB/4.9 GB   96 MB/s     28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  45% ▕████████          ▏ 2.2 GB/4.9 GB   96 MB/s     28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  45% ▕████████          ▏ 2.2 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  45% ▕████████          ▏ 2.2 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  45% ▕████████          ▏ 2.2 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  45% ▕████████          ▏ 2.2 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  46% ▕████████          ▏ 2.2 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  46% ▕████████          ▏ 2.3 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  46% ▕████████          ▏ 2.3 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  46% ▕████████          ▏ 2.3 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  46% ▕████████          ▏ 2.3 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  47% ▕████████          ▏ 2.3 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  47% ▕████████          ▏ 2.3 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  47% ▕████████          ▏ 2.3 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  47% ▕████████          ▏ 2.3 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  47% ▕████████          ▏ 2.3 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  47% ▕████████          ▏ 2.3 GB/4.9 GB   96 MB/s     27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  47% ▕████████          ▏ 2.3 GB/4.9 GB   96 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  48% ▕████████          ▏ 2.3 GB/4.9 GB   95 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  48% ▕████████          ▏ 2.4 GB/4.9 GB   95 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  48% ▕████████          ▏ 2.4 GB/4.9 GB   95 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  48% ▕████████          ▏ 2.4 GB/4.9 GB   95 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  48% ▕████████          ▏ 2.4 GB/4.9 GB   95 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  48% ▕████████          ▏ 2.4 GB/4.9 GB   95 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  49% ▕████████          ▏ 2.4 GB/4.9 GB   95 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  49% ▕████████          ▏ 2.4 GB/4.9 GB   95 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  49% ▕████████          ▏ 2.4 GB/4.9 GB   95 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  49% ▕████████          ▏ 2.4 GB/4.9 GB   95 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  49% ▕████████          ▏ 2.4 GB/4.9 GB   95 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  49% ▕████████          ▏ 2.4 GB/4.9 GB   93 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  50% ▕████████          ▏ 2.4 GB/4.9 GB   93 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  50% ▕████████          ▏ 2.4 GB/4.9 GB   93 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  50% ▕████████          ▏ 2.5 GB/4.9 GB   93 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  50% ▕█████████         ▏ 2.5 GB/4.9 GB   93 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  50% ▕█████████         ▏ 2.5 GB/4.9 GB   93 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  50% ▕█████████         ▏ 2.5 GB/4.9 GB   93 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  51% ▕█████████         ▏ 2.5 GB/4.9 GB   93 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  51% ▕█████████         ▏ 2.5 GB/4.9 GB   93 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  51% ▕█████████         ▏ 2.5 GB/4.9 GB   93 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  51% ▕█████████         ▏ 2.5 GB/4.9 GB   92 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  51% ▕█████████         ▏ 2.5 GB/4.9 GB   92 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  51% ▕█████████         ▏ 2.5 GB/4.9 GB   92 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  52% ▕█████████         ▏ 2.5 GB/4.9 GB   92 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  52% ▕█████████         ▏ 2.6 GB/4.9 GB   92 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  52% ▕█████████         ▏ 2.6 GB/4.9 GB   92 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  52% ▕█████████         ▏ 2.6 GB/4.9 GB   92 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  52% ▕█████████         ▏ 2.6 GB/4.9 GB   92 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  53% ▕█████████         ▏ 2.6 GB/4.9 GB   92 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  53% ▕█████████         ▏ 2.6 GB/4.9 GB   92 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  53% ▕█████████         ▏ 2.6 GB/4.9 GB   91 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  53% ▕█████████         ▏ 2.6 GB/4.9 GB   91 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  53% ▕█████████         ▏ 2.6 GB/4.9 GB   91 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  54% ▕█████████         ▏ 2.6 GB/4.9 GB   91 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  54% ▕█████████         ▏ 2.6 GB/4.9 GB   91 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  54% ▕█████████         ▏ 2.7 GB/4.9 GB   91 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  54% ▕█████████         ▏ 2.7 GB/4.9 GB   91 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  54% ▕█████████         ▏ 2.7 GB/4.9 GB   91 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  54% ▕█████████         ▏ 2.7 GB/4.9 GB   91 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  55% ▕█████████         ▏ 2.7 GB/4.9 GB   91 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  55% ▕█████████         ▏ 2.7 GB/4.9 GB   90 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  55% ▕█████████         ▏ 2.7 GB/4.9 GB   90 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  55% ▕█████████         ▏ 2.7 GB/4.9 GB   90 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  55% ▕█████████         ▏ 2.7 GB/4.9 GB   90 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  55% ▕█████████         ▏ 2.7 GB/4.9 GB   90 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  55% ▕█████████         ▏ 2.7 GB/4.9 GB   90 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  56% ▕██████████        ▏ 2.7 GB/4.9 GB   90 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  56% ▕██████████        ▏ 2.7 GB/4.9 GB   90 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  56% ▕██████████        ▏ 2.7 GB/4.9 GB   90 MB/s     23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  56% ▕██████████        ▏ 2.8 GB/4.9 GB   90 MB/s     23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  56% ▕██████████        ▏ 2.8 GB/4.9 GB   87 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  56% ▕██████████        ▏ 2.8 GB/4.9 GB   87 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  56% ▕██████████        ▏ 2.8 GB/4.9 GB   87 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  57% ▕██████████        ▏ 2.8 GB/4.9 GB   87 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  57% ▕██████████        ▏ 2.8 GB/4.9 GB   87 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  57% ▕██████████        ▏ 2.8 GB/4.9 GB   87 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  57% ▕██████████        ▏ 2.8 GB/4.9 GB   87 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  57% ▕██████████        ▏ 2.8 GB/4.9 GB   87 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  57% ▕██████████        ▏ 2.8 GB/4.9 GB   87 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  57% ▕██████████        ▏ 2.8 GB/4.9 GB   87 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  57% ▕██████████        ▏ 2.8 GB/4.9 GB   87 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  58% ▕██████████        ▏ 2.8 GB/4.9 GB   83 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  58% ▕██████████        ▏ 2.8 GB/4.9 GB   83 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  58% ▕██████████        ▏ 2.8 GB/4.9 GB   83 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  58% ▕██████████        ▏ 2.8 GB/4.9 GB   83 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  58% ▕██████████        ▏ 2.9 GB/4.9 GB   83 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  58% ▕██████████        ▏ 2.9 GB/4.9 GB   83 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  58% ▕██████████        ▏ 2.9 GB/4.9 GB   83 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  58% ▕██████████        ▏ 2.9 GB/4.9 GB   83 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  58% ▕██████████        ▏ 2.9 GB/4.9 GB   83 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  59% ▕██████████        ▏ 2.9 GB/4.9 GB   83 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  59% ▕██████████        ▏ 2.9 GB/4.9 GB   78 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  59% ▕██████████        ▏ 2.9 GB/4.9 GB   78 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  59% ▕██████████        ▏ 2.9 GB/4.9 GB   78 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  59% ▕██████████        ▏ 2.9 GB/4.9 GB   78 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  59% ▕██████████        ▏ 2.9 GB/4.9 GB   78 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  59% ▕██████████        ▏ 2.9 GB/4.9 GB   78 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  59% ▕██████████        ▏ 2.9 GB/4.9 GB   78 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  59% ▕██████████        ▏ 2.9 GB/4.9 GB   78 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  59% ▕██████████        ▏ 2.9 GB/4.9 GB   78 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  60% ▕██████████        ▏ 2.9 GB/4.9 GB   78 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  60% ▕██████████        ▏ 2.9 GB/4.9 GB   74 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  60% ▕██████████        ▏ 2.9 GB/4.9 GB   74 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  60% ▕██████████        ▏ 3.0 GB/4.9 GB   74 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  60% ▕██████████        ▏ 3.0 GB/4.9 GB   74 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  60% ▕██████████        ▏ 3.0 GB/4.9 GB   74 MB/s     26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  61% ▕██████████        ▏ 3.0 GB/4.9 GB   74 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  61% ▕██████████        ▏ 3.0 GB/4.9 GB   74 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  61% ▕██████████        ▏ 3.0 GB/4.9 GB   74 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  61% ▕███████████       ▏ 3.0 GB/4.9 GB   74 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  61% ▕███████████       ▏ 3.0 GB/4.9 GB   74 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  62% ▕███████████       ▏ 3.0 GB/4.9 GB   75 MB/s     25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  62% ▕███████████       ▏ 3.0 GB/4.9 GB   75 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  62% ▕███████████       ▏ 3.0 GB/4.9 GB   75 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  62% ▕███████████       ▏ 3.1 GB/4.9 GB   75 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  62% ▕███████████       ▏ 3.1 GB/4.9 GB   75 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  62% ▕███████████       ▏ 3.1 GB/4.9 GB   75 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  63% ▕███████████       ▏ 3.1 GB/4.9 GB   75 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  63% ▕███████████       ▏ 3.1 GB/4.9 GB   75 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  63% ▕███████████       ▏ 3.1 GB/4.9 GB   75 MB/s     24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  63% ▕███████████       ▏ 3.1 GB/4.9 GB   75 MB/s     23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  63% ▕███████████       ▏ 3.1 GB/4.9 GB   77 MB/s     23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  64% ▕███████████       ▏ 3.1 GB/4.9 GB   77 MB/s     23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  64% ▕███████████       ▏ 3.1 GB/4.9 GB   77 MB/s     23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  64% ▕███████████       ▏ 3.1 GB/4.9 GB   77 MB/s     23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  64% ▕███████████       ▏ 3.2 GB/4.9 GB   77 MB/s     22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  64% ▕███████████       ▏ 3.2 GB/4.9 GB   77 MB/s     22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  65% ▕███████████       ▏ 3.2 GB/4.9 GB   77 MB/s     22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  65% ▕███████████       ▏ 3.2 GB/4.9 GB   77 MB/s     22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  65% ▕███████████       ▏ 3.2 GB/4.9 GB   77 MB/s     22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  65% ▕███████████       ▏ 3.2 GB/4.9 GB   77 MB/s     22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  65% ▕███████████       ▏ 3.2 GB/4.9 GB   77 MB/s     22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  66% ▕███████████       ▏ 3.2 GB/4.9 GB   78 MB/s     21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  66% ▕███████████       ▏ 3.2 GB/4.9 GB   78 MB/s     21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  66% ▕███████████       ▏ 3.2 GB/4.9 GB   78 MB/s     21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  66% ▕███████████       ▏ 3.3 GB/4.9 GB   78 MB/s     21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  66% ▕███████████       ▏ 3.3 GB/4.9 GB   78 MB/s     21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  66% ▕███████████       ▏ 3.3 GB/4.9 GB   78 MB/s     21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  67% ▕███████████       ▏ 3.3 GB/4.9 GB   78 MB/s     20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  67% ▕████████████      ▏ 3.3 GB/4.9 GB   78 MB/s     20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  67% ▕████████████      ▏ 3.3 GB/4.9 GB   78 MB/s     20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  67% ▕████████████      ▏ 3.3 GB/4.9 GB   78 MB/s     20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  68% ▕████████████      ▏ 3.3 GB/4.9 GB   78 MB/s     20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  68% ▕████████████      ▏ 3.3 GB/4.9 GB   78 MB/s     20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  68% ▕████████████      ▏ 3.3 GB/4.9 GB   78 MB/s     20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  68% ▕████████████      ▏ 3.4 GB/4.9 GB   78 MB/s     19s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  68% ▕████████████      ▏ 3.4 GB/4.9 GB   78 MB/s     19s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  68% ▕████████████      ▏ 3.4 GB/4.9 GB   78 MB/s     19s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  69% ▕████████████      ▏ 3.4 GB/4.9 GB   78 MB/s     19s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  69% ▕████████████      ▏ 3.4 GB/4.9 GB   78 MB/s     19s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  69% ▕████████████      ▏ 3.4 GB/4.9 GB   78 MB/s     19s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  69% ▕████████████      ▏ 3.4 GB/4.9 GB   78 MB/s     19s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  69% ▕████████████      ▏ 3.4 GB/4.9 GB   79 MB/s     18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  70% ▕████████████      ▏ 3.4 GB/4.9 GB   79 MB/s     18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  70% ▕████████████      ▏ 3.4 GB/4.9 GB   79 MB/s     18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  70% ▕████████████      ▏ 3.4 GB/4.9 GB   79 MB/s     18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  70% ▕████████████      ▏ 3.5 GB/4.9 GB   79 MB/s     18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  70% ▕████████████      ▏ 3.5 GB/4.9 GB   79 MB/s     18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  71% ▕████████████      ▏ 3.5 GB/4.9 GB   79 MB/s     18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  71% ▕████████████      ▏ 3.5 GB/4.9 GB   79 MB/s     18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  71% ▕████████████      ▏ 3.5 GB/4.9 GB   79 MB/s     17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  71% ▕████████████      ▏ 3.5 GB/4.9 GB   79 MB/s     17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  71% ▕████████████      ▏ 3.5 GB/4.9 GB   83 MB/s     16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  72% ▕████████████      ▏ 3.5 GB/4.9 GB   83 MB/s     16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  72% ▕████████████      ▏ 3.5 GB/4.9 GB   83 MB/s     16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  72% ▕████████████      ▏ 3.5 GB/4.9 GB   83 MB/s     16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  72% ▕████████████      ▏ 3.5 GB/4.9 GB   83 MB/s     16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  72% ▕████████████      ▏ 3.6 GB/4.9 GB   83 MB/s     16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  72% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  72% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  73% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  73% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  73% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  73% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  73% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  73% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  73% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  73% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  74% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  74% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  74% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  74% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  74% ▕█████████████     ▏ 3.6 GB/4.9 GB   83 MB/s     15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  74% ▕█████████████     ▏ 3.7 GB/4.9 GB   85 MB/s     14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  75% ▕█████████████     ▏ 3.7 GB/4.9 GB   85 MB/s     14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  75% ▕█████████████     ▏ 3.7 GB/4.9 GB   85 MB/s     14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  75% ▕█████████████     ▏ 3.7 GB/4.9 GB   85 MB/s     14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  75% ▕█████████████     ▏ 3.7 GB/4.9 GB   85 MB/s     14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  75% ▕█████████████     ▏ 3.7 GB/4.9 GB   85 MB/s     14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  75% ▕█████████████     ▏ 3.7 GB/4.9 GB   85 MB/s     14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  76% ▕█████████████     ▏ 3.7 GB/4.9 GB   85 MB/s     14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  76% ▕█████████████     ▏ 3.7 GB/4.9 GB   85 MB/s     13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  76% ▕█████████████     ▏ 3.7 GB/4.9 GB   85 MB/s     13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  76% ▕█████████████     ▏ 3.8 GB/4.9 GB   89 MB/s     13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  76% ▕█████████████     ▏ 3.8 GB/4.9 GB   89 MB/s     12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  77% ▕█████████████     ▏ 3.8 GB/4.9 GB   89 MB/s     12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  77% ▕█████████████     ▏ 3.8 GB/4.9 GB   89 MB/s     12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  77% ▕█████████████     ▏ 3.8 GB/4.9 GB   89 MB/s     12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  77% ▕█████████████     ▏ 3.8 GB/4.9 GB   89 MB/s     12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  77% ▕█████████████     ▏ 3.8 GB/4.9 GB   89 MB/s     12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  78% ▕█████████████     ▏ 3.8 GB/4.9 GB   89 MB/s     12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  78% ▕█████████████     ▏ 3.8 GB/4.9 GB   89 MB/s     12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  78% ▕██████████████    ▏ 3.8 GB/4.9 GB   89 MB/s     12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  78% ▕██████████████    ▏ 3.8 GB/4.9 GB   90 MB/s     11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  78% ▕██████████████    ▏ 3.9 GB/4.9 GB   90 MB/s     11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  79% ▕██████████████    ▏ 3.9 GB/4.9 GB   90 MB/s     11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  79% ▕██████████████    ▏ 3.9 GB/4.9 GB   90 MB/s     11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  79% ▕██████████████    ▏ 3.9 GB/4.9 GB   90 MB/s     11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  79% ▕██████████████    ▏ 3.9 GB/4.9 GB   90 MB/s     11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  79% ▕██████████████    ▏ 3.9 GB/4.9 GB   90 MB/s     11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  80% ▕██████████████    ▏ 3.9 GB/4.9 GB   90 MB/s     11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  80% ▕██████████████    ▏ 3.9 GB/4.9 GB   90 MB/s     10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  80% ▕██████████████    ▏ 3.9 GB/4.9 GB   90 MB/s     10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  80% ▕██████████████    ▏ 3.9 GB/4.9 GB   91 MB/s     10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  80% ▕██████████████    ▏ 4.0 GB/4.9 GB   91 MB/s     10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  81% ▕██████████████    ▏ 4.0 GB/4.9 GB   91 MB/s     10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  81% ▕██████████████    ▏ 4.0 GB/4.9 GB   91 MB/s     10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  81% ▕██████████████    ▏ 4.0 GB/4.9 GB   91 MB/s     10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  81% ▕██████████████    ▏ 4.0 GB/4.9 GB   91 MB/s     10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  81% ▕██████████████    ▏ 4.0 GB/4.9 GB   91 MB/s     10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  82% ▕██████████████    ▏ 4.0 GB/4.9 GB   91 MB/s      9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  82% ▕██████████████    ▏ 4.0 GB/4.9 GB   91 MB/s      9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  82% ▕██████████████    ▏ 4.0 GB/4.9 GB   91 MB/s      9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  82% ▕██████████████    ▏ 4.0 GB/4.9 GB   91 MB/s      9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  82% ▕██████████████    ▏ 4.0 GB/4.9 GB   91 MB/s      9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  82% ▕██████████████    ▏ 4.1 GB/4.9 GB   91 MB/s      9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  83% ▕██████████████    ▏ 4.1 GB/4.9 GB   91 MB/s      9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  83% ▕██████████████    ▏ 4.1 GB/4.9 GB   91 MB/s      9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  83% ▕██████████████    ▏ 4.1 GB/4.9 GB   91 MB/s      9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  83% ▕███████████████   ▏ 4.1 GB/4.9 GB   91 MB/s      8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  83% ▕███████████████   ▏ 4.1 GB/4.9 GB   91 MB/s      8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  84% ▕███████████████   ▏ 4.1 GB/4.9 GB   91 MB/s      8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  84% ▕███████████████   ▏ 4.1 GB/4.9 GB   91 MB/s      8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  84% ▕███████████████   ▏ 4.1 GB/4.9 GB   91 MB/s      8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  84% ▕███████████████   ▏ 4.1 GB/4.9 GB   91 MB/s      8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  84% ▕███████████████   ▏ 4.2 GB/4.9 GB   91 MB/s      8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  85% ▕███████████████   ▏ 4.2 GB/4.9 GB   91 MB/s      8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  85% ▕███████████████   ▏ 4.2 GB/4.9 GB   91 MB/s      8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  85% ▕███████████████   ▏ 4.2 GB/4.9 GB   91 MB/s      8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  85% ▕███████████████   ▏ 4.2 GB/4.9 GB   91 MB/s      7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  85% ▕███████████████   ▏ 4.2 GB/4.9 GB   91 MB/s      7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  86% ▕███████████████   ▏ 4.2 GB/4.9 GB   91 MB/s      7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  86% ▕███████████████   ▏ 4.2 GB/4.9 GB   91 MB/s      7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  86% ▕███████████████   ▏ 4.2 GB/4.9 GB   91 MB/s      7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  86% ▕███████████████   ▏ 4.2 GB/4.9 GB   91 MB/s      7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  86% ▕███████████████   ▏ 4.2 GB/4.9 GB   91 MB/s      7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  87% ▕███████████████   ▏ 4.3 GB/4.9 GB   91 MB/s      7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  87% ▕███████████████   ▏ 4.3 GB/4.9 GB   91 MB/s      7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  87% ▕███████████████   ▏ 4.3 GB/4.9 GB   91 MB/s      7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  87% ▕███████████████   ▏ 4.3 GB/4.9 GB   91 MB/s      6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  87% ▕███████████████   ▏ 4.3 GB/4.9 GB   91 MB/s      6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  88% ▕███████████████   ▏ 4.3 GB/4.9 GB   91 MB/s      6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  88% ▕███████████████   ▏ 4.3 GB/4.9 GB   91 MB/s      6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  88% ▕███████████████   ▏ 4.3 GB/4.9 GB   91 MB/s      6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  88% ▕███████████████   ▏ 4.3 GB/4.9 GB   91 MB/s      6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  88% ▕███████████████   ▏ 4.3 GB/4.9 GB   91 MB/s      6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  89% ▕███████████████   ▏ 4.4 GB/4.9 GB   91 MB/s      6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  89% ▕███████████████   ▏ 4.4 GB/4.9 GB   91 MB/s      6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  89% ▕████████████████  ▏ 4.4 GB/4.9 GB   91 MB/s      5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  89% ▕████████████████  ▏ 4.4 GB/4.9 GB   91 MB/s      5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  89% ▕████████████████  ▏ 4.4 GB/4.9 GB   91 MB/s      5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  90% ▕████████████████  ▏ 4.4 GB/4.9 GB   91 MB/s      5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  90% ▕████████████████  ▏ 4.4 GB/4.9 GB   91 MB/s      5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  90% ▕████████████████  ▏ 4.4 GB/4.9 GB   91 MB/s      5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  90% ▕████████████████  ▏ 4.4 GB/4.9 GB   94 MB/s      5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  90% ▕████████████████  ▏ 4.4 GB/4.9 GB   94 MB/s      5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  90% ▕████████████████  ▏ 4.5 GB/4.9 GB   94 MB/s      4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  91% ▕████████████████  ▏ 4.5 GB/4.9 GB   94 MB/s      4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  91% ▕████████████████  ▏ 4.5 GB/4.9 GB   94 MB/s      4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  91% ▕████████████████  ▏ 4.5 GB/4.9 GB   94 MB/s      4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  91% ▕████████████████  ▏ 4.5 GB/4.9 GB   94 MB/s      4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  92% ▕████████████████  ▏ 4.5 GB/4.9 GB   94 MB/s      4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  92% ▕████████████████  ▏ 4.5 GB/4.9 GB   94 MB/s      4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  92% ▕████████████████  ▏ 4.5 GB/4.9 GB   94 MB/s      4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  92% ▕████████████████  ▏ 4.5 GB/4.9 GB   97 MB/s      3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  92% ▕████████████████  ▏ 4.5 GB/4.9 GB   97 MB/s      3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  93% ▕████████████████  ▏ 4.6 GB/4.9 GB   97 MB/s      3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  93% ▕████████████████  ▏ 4.6 GB/4.9 GB   97 MB/s      3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  93% ▕████████████████  ▏ 4.6 GB/4.9 GB   97 MB/s      3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  93% ▕████████████████  ▏ 4.6 GB/4.9 GB   97 MB/s      3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  93% ▕████████████████  ▏ 4.6 GB/4.9 GB   97 MB/s      3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  93% ▕████████████████  ▏ 4.6 GB/4.9 GB   97 MB/s      3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  94% ▕████████████████  ▏ 4.6 GB/4.9 GB   97 MB/s      3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  94% ▕████████████████  ▏ 4.6 GB/4.9 GB   97 MB/s      3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  94% ▕████████████████  ▏ 4.6 GB/4.9 GB   97 MB/s      2s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  94% ▕████████████████  ▏ 4.6 GB/4.9 GB   98 MB/s      2s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  95% ▕█████████████████ ▏ 4.7 GB/4.9 GB   98 MB/s      2s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  95% ▕█████████████████ ▏ 4.7 GB/4.9 GB   98 MB/s      2s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  95% ▕█████████████████ ▏ 4.7 GB/4.9 GB   98 MB/s      2s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  95% ▕█████████████████ ▏ 4.7 GB/4.9 GB   98 MB/s      2s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  95% ▕█████████████████ ▏ 4.7 GB/4.9 GB   98 MB/s      2s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  95% ▕█████████████████ ▏ 4.7 GB/4.9 GB   98 MB/s      2s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  96% ▕█████████████████ ▏ 4.7 GB/4.9 GB   98 MB/s      2s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  96% ▕█████████████████ ▏ 4.7 GB/4.9 GB   98 MB/s      2s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  96% ▕█████████████████ ▏ 4.7 GB/4.9 GB   98 MB/s      1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  96% ▕█████████████████ ▏ 4.7 GB/4.9 GB   98 MB/s      1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  96% ▕█████████████████ ▏ 4.7 GB/4.9 GB   98 MB/s      1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  97% ▕█████████████████ ▏ 4.8 GB/4.9 GB   98 MB/s      1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  97% ▕█████████████████ ▏ 4.8 GB/4.9 GB   98 MB/s      1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  97% ▕█████████████████ ▏ 4.8 GB/4.9 GB   98 MB/s      1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  97% ▕█████████████████ ▏ 4.8 GB/4.9 GB   98 MB/s      1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  97% ▕█████████████████ ▏ 4.8 GB/4.9 GB   98 MB/s      1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  98% ▕█████████████████ ▏ 4.8 GB/4.9 GB   98 MB/s      1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  98% ▕█████████████████ ▏ 4.8 GB/4.9 GB   98 MB/s      1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  98% ▕█████████████████ ▏ 4.8 GB/4.9 GB   98 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  98% ▕█████████████████ ▏ 4.8 GB/4.9 GB   98 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  98% ▕█████████████████ ▏ 4.8 GB/4.9 GB   98 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  99% ▕█████████████████ ▏ 4.9 GB/4.9 GB   98 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  99% ▕█████████████████ ▏ 4.9 GB/4.9 GB   98 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  99% ▕█████████████████ ▏ 4.9 GB/4.9 GB   98 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  99% ▕█████████████████ ▏ 4.9 GB/4.9 GB   98 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  99% ▕█████████████████ ▏ 4.9 GB/4.9 GB   98 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc:  99% ▕█████████████████ ▏ 4.9 GB/4.9 GB   98 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   98 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   98 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠋ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠙ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠹ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠸ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠼ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠴ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠦ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠧ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠇ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠏ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠋ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠙ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠹ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠸ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠼ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠴ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠦ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠧ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠇ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠏ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠋ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠙ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠹ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠸ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠼ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠴ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠦ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠧ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠇ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠏ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠋ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠙ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠹ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠸ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠼ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠴ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠦ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠧ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠇ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠏ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠋ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠙ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠹ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠸ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠼ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠴ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠦ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠧ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠇ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠏ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠋ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠙ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠹ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠸ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠼ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠴ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠦ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠧ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠇ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest ⠏ [K[?25h[?2026l[?2026h[?25l[A[A[A[1Gpulling manifest [K
+pulling 667b0c1932bc: 100% ▕█████████████████ ▏ 4.9 GB/4.9 GB   96 MB/s      0s[K
+pulling 455f34728c9b: 100% ▕██████████████████▏  487 B                         [K
+verifying sha256 digest [K
+writing manifest [K
+success [K[?25h[?2026l
+[?2026h[?25l[1Ggathering model components [K[?25h[?2026l[?2026h[?25l[1Ggathering model components [K
+using existing layer sha256:667b0c1932bc6ffc593ed1d03f895bf2dc8dc6df21db3042284a6f4416b06a29 [K
+using existing layer sha256:948af2743fc78a328dcb3b0f5a31b3d75f415840fdb699e8b1235978392ecf85 [K
+using existing layer sha256:0ba8f0e314b4264dfd19df045cde9d4c394a52474bf92ed6a3de22a4ca31a177 [K
+creating new layer sha256:8c07e4cf421fd50a8e6af9f3136f09c48400963b923ea54a4fc9bc60e54f84e8 [K
+writing manifest [K
+success [K[?25h[?2026l
+NAME                       ID              SIZE      MODIFIED               
+helpdesk-llama3.1:8b       7636c8d4230e    4.9 GB    Less than a second ago    
+llama3.1:8b                46e0c10c039e    4.9 GB    Less than a second ago    
+helpdesk-qwen3:8b          2bd7049b3606    5.2 GB    41 minutes ago            
+qwen3:8b                   500a1f067a9f    5.2 GB    41 minutes ago            
+nomic-embed-text:latest    0a109f422b47    274 MB    42 minutes ago            
+
+================ 4/8  Python environment ================
+Python packages installed.
+
+================ 5/8  Preparing documents ================
+courses: 597 rows | slot timings: 61 rows | faculty: 331 people
+[ok]   ug_pg_regulations_2019_onwards.pdf  (535 KB)
+[ok]   pg_regulations_2022_onwards.pdf  (440 KB)
+[ok]   btech_regulations_2018.pdf  (357 KB)
+[ok]   btech_regulations_2014_rev.pdf  (382 KB)
+[ok]   academic_calendar_executive_AY2026-27.pdf  (223 KB)
+[ok]   btech_me_curriculum_legacy.pdf  (211 KB)
+[ok]   btech_systems_science_curricula_legacy.pdf  (364 KB)
+[ok]   phd_me_curriculum.pdf  (276 KB)
+[fail] mme_academic_regulations_2020.pdf: ConnectionError: HTTPSConnectionPool(host='mme.iitj.ac.in', port=443): Max retries exceeded with url: /data/Academic%20Regulations_docume
+
+Download these in a browser and save them into data/raw/ with exactly these names:
+  mme_academic_regulations_2020.pdf                <- https://mme.iitj.ac.in/data/Academic%20Regulations_document-2020-05-01-9-21-am.pdf
+
+>>> Some PDFs could not be downloaded automatically (list above).
+>>> Open each link in your browser, save the PDF into data/raw/ with the exact name shown,
+>>> then run this script again. Continuing now with the documents that are present.
+Press Enter to continue (auto-continues in 20 s)... 
+
+================ 6/8  Building the vector index ================
+    19 chunks  D01 academic_calendar_AY2026-27.pdf
+    53 chunks  D02 ug_curriculum_btech_cse_revised.pdf
+     8 chunks  D03 fee_structure_AY2026-27.pdf
+     6 chunks  D04 institute_holidays_2026.md
+     6 chunks  D05 slot_system_rules_AY2026-27_sem1.md
+     5 chunks  D06 course_registration_guidelines_AY2026-27_sem1.md
+   123 chunks  D07 ug_pg_regulations_2019_onwards.pdf
+    94 chunks  D08 pg_regulations_2022_onwards.pdf
+    45 chunks  D09 btech_regulations_2018.pdf
+    39 chunks  D10 btech_regulations_2014_rev.pdf
+     6 chunks  D11 academic_calendar_executive_AY2026-27.pdf
+     3 chunks  D12 btech_me_curriculum_legacy.pdf
+     9 chunks  D13 btech_systems_science_curricula_legacy.pdf
+     2 chunks  D14 phd_me_curriculum.pdf
+    11 chunks  D16 web_list_of_academic_programs.md
+     5 chunks  D17 web_btech_programme_overview.md
+
+Missing (run scripts/fetch_public_docs.py first):
+  D15 mme_academic_regulations_2020.pdf
+
+434 chunks from 16 documents
+Indexed 434 chunks into ChromaDB.
+
+================ 7/8  Smoke test (4 questions) ================
+App "iitj_academic_helpdesk" can transfer between agents but has no context_cache_config. Every transfer swaps the system instruction and the tool set, so the request prefix changes and the whole prompt is re-sent uncached after each transfer. Set context_cache_config on the app to give each agent its own cache.
+[multi|helpdesk-qwen3:8b|run 1] Q07 ok   102.2s  helpdesk_orchestrator -> policy_agent  | 'The Major examinations for Semester I of AY 2026-27 are scheduled from **30th November to '
+[multi|helpdesk-qwen3:8b|run 1] Q13 ok    40.7s  helpdesk_orchestrator -> schedule_agent  | 'The slot for the course **Autonomous Systems (AI+X)** is **E**.  \nInstructor: Gaurav Harit'
+[multi|helpdesk-qwen3:8b|run 1] Q22 ok    87.3s  helpdesk_orchestrator -> email_agent  | 'Here is your email draft for **CSL7650 - Autonomous Systems (AI+X)**:\n\n**To**: gaurav.hari'
+[multi|helpdesk-qwen3:8b|run 1] Q25 REF   31.3s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+
+Traces in eval/results/smoke_traces.jsonl. Now run: python eval/score.py
+Smoke test passed. Starting the evaluation.
+
+================ 8/8  Evaluation ================
+App "iitj_academic_helpdesk" can transfer between agents but has no context_cache_config. Every transfer swaps the system instruction and the tool set, so the request prefix changes and the whole prompt is re-sent uncached after each transfer. Set context_cache_config on the app to give each agent its own cache.
+[multi|helpdesk-qwen3:8b|run 1] Q01 ok    71.3s  helpdesk_orchestrator -> policy_agent  | 'The attendance requirement to sit in the Major exam is a minimum of 75%. Students with att'
+[multi|helpdesk-qwen3:8b|run 1] Q02 ok    68.9s  helpdesk_orchestrator -> policy_agent  | 'Students in the regular B.Tech programme are required to complete **12 credits** of open e'
+[multi|helpdesk-qwen3:8b|run 1] Q03 ok    97.8s  helpdesk_orchestrator -> policy_agent  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[multi|helpdesk-qwen3:8b|run 1] Q04 ok    52.2s  helpdesk_orchestrator -> policy_agent  | 'The application for a make-up examination must be made within **ten days** from the date o'
+[multi|helpdesk-qwen3:8b|run 1] Q05 REF  100.3s  helpdesk_orchestrator -> policy_agent  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 1] Q06 ok    66.5s  helpdesk_orchestrator -> policy_agent  | 'The tuition fee per semester for a B.Tech student with family income more than 5 lakh is ₹'
+[multi|helpdesk-qwen3:8b|run 1] Q07 ok    99.3s  helpdesk_orchestrator -> policy_agent  | 'The Major examinations for Semester I of AY 2026-27 are scheduled from **30th November to '
+[multi|helpdesk-qwen3:8b|run 1] Q08 ok    55.6s  helpdesk_orchestrator -> policy_agent  | 'The Minor Examination in Semester I 2026-27 is scheduled from **15-20 September 2026 (Tue-'
+[multi|helpdesk-qwen3:8b|run 1] Q09 ERR  300.1s  helpdesk_orchestrator -> policy_agent  | ''
+[multi|helpdesk-qwen3:8b|run 1] Q10 ok    60.1s  helpdesk_orchestrator -> policy_agent  | 'The minimum CGPA required to graduate from an M.Tech. programme is **5.0**.  \nSource: PG R'
+[multi|helpdesk-qwen3:8b|run 1] Q11 ok    77.9s  helpdesk_orchestrator -> policy_agent  | 'A B.Tech. student must have earned **85 credits** with a **CGPA >= 6** to register for a 7'
+[multi|helpdesk-qwen3:8b|run 1] Q12 ok    59.8s  helpdesk_orchestrator -> policy_agent  | 'Yes, 20 October 2026 is a holiday at the institute: **Dussehra (Mahanavami)**.  \n\nSource: '
+[multi|helpdesk-qwen3:8b|run 1] Q13 ok    37.5s  helpdesk_orchestrator -> schedule_agent  | 'The slot for the course **Autonomous Systems (AI+X)** is **E**.  \nInstructor: Gaurav Harit'
+[multi|helpdesk-qwen3:8b|run 1] Q14 ok    36.7s  helpdesk_orchestrator -> schedule_agent  | 'Slot M1 meets on **Mon 13:00-14:50 (lab (2 h))**.  \nSource: Slot System AY 2026-27 Semeste'
+[multi|helpdesk-qwen3:8b|run 1] Q15 ok    48.8s  helpdesk_orchestrator -> schedule_agent  | 'Susil Kumar Mohanty is teaching Operating Systems (CSL3030) in slot B.  \nSource: Finalized'
+[multi|helpdesk-qwen3:8b|run 1] Q16 ok    43.5s  helpdesk_orchestrator -> schedule_agent  | '1 course meets the criteria: LAL4070 (Health Economics, 400-level Humanities). Note: The d'
+[multi|helpdesk-qwen3:8b|run 1] Q17 ok    34.1s  helpdesk_orchestrator -> schedule_agent  | 'CSL7360 Computer Vision is in slot **I**, taught by **Deepak Mishra**.  \nSource: Finalized'
+[multi|helpdesk-qwen3:8b|run 1] Q18 ok    58.4s  helpdesk_orchestrator -> schedule_agent  | 'The Mechanical Engineering department has floated **9 programme electives** for B.Tech. st'
+[multi|helpdesk-qwen3:8b|run 1] Q19 ok    61.7s  helpdesk_orchestrator -> schedule_agent  | 'Second-year ME students with roll numbers 41 to 80 have their IML lab in slot **M2**.  \n\nS'
+[multi|helpdesk-qwen3:8b|run 1] Q20 ok    51.1s  helpdesk_orchestrator -> policy_agent  | 'No, students are allowed to register for only one course per slot.  \nSource: Course Regist'
+[multi|helpdesk-qwen3:8b|run 1] Q21 ok    40.8s  helpdesk_orchestrator -> email_agent  | 'The course "CSL7570" is not listed in the AY 2026-27 Semester I course catalog, so its ins'
+[multi|helpdesk-qwen3:8b|run 1] Q22 ok   110.3s  helpdesk_orchestrator -> email_agent  | 'Here is your email draft for **CSL7650 - Autonomous Systems (AI+X)**:\n\n---\n\n**To**: gaurav'
+[multi|helpdesk-qwen3:8b|run 1] Q23 ok   111.5s  helpdesk_orchestrator -> email_agent  | 'Here is your draft email to **Prof. Pratyaksh Karan** for **MEL2040 Fluid Mechanics**:\n\n--'
+[multi|helpdesk-qwen3:8b|run 1] Q24 ok    44.9s  helpdesk_orchestrator -> email_agent  | 'The instructor for Database Systems (course code CSL3050) is Nitin Awathare. His e-mail ID'
+[multi|helpdesk-qwen3:8b|run 1] Q25 REF   18.7s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 1] Q26 REF   32.7s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 1] Q27 REF   38.2s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 1] Q28 REF   42.0s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 1] Q29 REF   71.7s  helpdesk_orchestrator -> policy_agent  | 'The monthly hostel mess fee details are not specified in the available academic documents.'
+[multi|helpdesk-qwen3:8b|run 1] Q30 REF   25.4s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 2] Q01 ok    74.6s  helpdesk_orchestrator -> policy_agent  | 'The attendance requirement to sit in the Major exam is a minimum of 75%. Students with att'
+[multi|helpdesk-qwen3:8b|run 2] Q02 ok    61.4s  helpdesk_orchestrator -> policy_agent  | 'To earn a B.Tech. degree, students are required to complete **12 credits of Open Elective '
+[multi|helpdesk-qwen3:8b|run 2] Q03 ok    81.4s  helpdesk_orchestrator -> policy_agent  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[multi|helpdesk-qwen3:8b|run 2] Q04 ok    53.2s  helpdesk_orchestrator -> policy_agent  | 'Within ten days from the date of the missed examination, you must apply for a make-up exam'
+[multi|helpdesk-qwen3:8b|run 2] Q05 REF  105.5s  helpdesk_orchestrator -> policy_agent  | 'The maximum number of credits a B.Tech student can register for in a semester is not speci'
+[multi|helpdesk-qwen3:8b|run 2] Q06 ok    58.9s  helpdesk_orchestrator -> policy_agent  | 'The tuition fee per semester for a B.Tech student with family income more than 5 lakh is ₹'
+[multi|helpdesk-qwen3:8b|run 2] Q07 ok    82.8s  helpdesk_orchestrator -> policy_agent  | 'The Major examinations for Semester I of AY 2026-27 are scheduled from **19–26 November 20'
+[multi|helpdesk-qwen3:8b|run 2] Q08 ok    85.3s  helpdesk_orchestrator -> policy_agent  | 'The Minor Examination in Semester I 2026-27 is scheduled from **15-20 September 2026 (Tue-'
+[multi|helpdesk-qwen3:8b|run 2] Q09 ok   244.4s  helpdesk_orchestrator -> policy_agent  | 'The timetable for Tuesday will be followed on Saturday, 24th October 2026, as there are no'
+[multi|helpdesk-qwen3:8b|run 2] Q10 ok    48.3s  helpdesk_orchestrator -> policy_agent  | 'The minimum CGPA required to graduate from an M.Tech. programme is **5.0**.  \nSource: Acad'
+[multi|helpdesk-qwen3:8b|run 2] Q11 ok    61.5s  helpdesk_orchestrator -> policy_agent  | 'A B.Tech. student must have earned **85 credits** (Cr >= 85) with a CGPA >= 6 to register '
+[multi|helpdesk-qwen3:8b|run 2] Q12 ok    67.3s  helpdesk_orchestrator -> policy_agent  | 'Yes, 20 October 2026 is a holiday (Dussehra / Vijay Dashmi) per the Institute Holidays Cal'
+[multi|helpdesk-qwen3:8b|run 2] Q13 ok    39.8s  helpdesk_orchestrator -> schedule_agent  | 'The slot for the course "Autonomous Systems (AI+X)" is **E**.  \nSource: Finalized Courses '
+[multi|helpdesk-qwen3:8b|run 2] Q14 ok    32.4s  helpdesk_orchestrator -> schedule_agent  | 'Slot M1 meets on Mon 13:00-14:50 (lab (2 h)).  \nSource: Slot System AY 2026-27 Semester I'
+[multi|helpdesk-qwen3:8b|run 2] Q15 ok    51.7s  helpdesk_orchestrator -> schedule_agent  | 'Susil Kumar Mohanty is teaching Operating Systems in slot B.  \nSource: Finalized Courses L'
+[multi|helpdesk-qwen3:8b|run 2] Q16 ok    82.7s  helpdesk_orchestrator -> schedule_agent  | '1 course listed: LAL4070 (Health Economics) in slot D with instructor Alok. Note: The Huma'
+[multi|helpdesk-qwen3:8b|run 2] Q17 ok    41.6s  helpdesk_orchestrator -> schedule_agent  | 'CSL7360 Computer Vision is in slot **I**, taught by Deepak Mishra.  \nSource: Finalized Cou'
+[multi|helpdesk-qwen3:8b|run 2] Q18 ok    79.2s  helpdesk_orchestrator -> schedule_agent  | 'The Mechanical Engineering department has floated **9 programme electives** for B.Tech. st'
+[multi|helpdesk-qwen3:8b|run 2] Q19 ok    65.1s  helpdesk_orchestrator -> schedule_agent  | 'The second-year ME students with roll numbers 41 to 80 have their IML lab in slot **M2**. '
+[multi|helpdesk-qwen3:8b|run 2] Q20 ok    53.3s  helpdesk_orchestrator -> policy_agent  | 'No, students are allowed to register for only one course per slot.  \nSource: Course Regist'
+[multi|helpdesk-qwen3:8b|run 2] Q21 ok    71.4s  helpdesk_orchestrator -> email_agent  | 'The course code "CSL7570" is not listed in the AY 2026-27 Semester I course catalog, so it'
+[multi|helpdesk-qwen3:8b|run 2] Q22 ok    73.6s  helpdesk_orchestrator -> email_agent  | 'To: gaurav.harit@iitj-dummy.ac.in  \nSubject: Leave application - CSL7650 Autonomous System'
+[multi|helpdesk-qwen3:8b|run 2] Q23 ok   115.0s  helpdesk_orchestrator -> email_agent  | 'Here is your draft email for the instructor of **MEL2040 Fluid Mechanics**:\n\n---\n\n**To**: '
+[multi|helpdesk-qwen3:8b|run 2] Q24 ok    51.2s  helpdesk_orchestrator -> email_agent  | 'The instructor for **Database Systems** (course code: CSL3050) is **Nitin Awathare** <niti'
+[multi|helpdesk-qwen3:8b|run 2] Q25 ok    22.3s  helpdesk_orchestrator  | 'The question has been logged as out of scope. No further action required.'
+[multi|helpdesk-qwen3:8b|run 2] Q26 ok    21.1s  helpdesk_orchestrator  | 'The question has been logged and marked as out-of-scope. No further action required.'
+[multi|helpdesk-qwen3:8b|run 2] Q27 REF   30.3s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 2] Q28 ok    33.1s  helpdesk_orchestrator  | "I'm here to help with academic queries related to IIT Jodhpur. If you have any questions a"
+[multi|helpdesk-qwen3:8b|run 2] Q29 REF   52.7s  helpdesk_orchestrator -> policy_agent  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 2] Q30 REF   26.2s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 3] Q01 ok    68.1s  helpdesk_orchestrator -> policy_agent  | 'The attendance requirement to sit in the Major exam is a minimum of 75% attendance in the '
+[multi|helpdesk-qwen3:8b|run 3] Q02 ok    60.5s  helpdesk_orchestrator -> policy_agent  | 'Students in the regular B.Tech programme are required to complete **12 credits** of open e'
+[multi|helpdesk-qwen3:8b|run 3] Q03 ok    94.9s  helpdesk_orchestrator -> policy_agent  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[multi|helpdesk-qwen3:8b|run 3] Q04 ok    51.4s  helpdesk_orchestrator -> policy_agent  | 'The application for a make-up examination must be made within **ten days** from the date o'
+[multi|helpdesk-qwen3:8b|run 3] Q05 REF   75.6s  helpdesk_orchestrator -> policy_agent  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 3] Q06 ok    76.6s  helpdesk_orchestrator -> policy_agent  | 'The tuition fee per semester for a B.Tech student with family income more than 5 lakh is ₹'
+[multi|helpdesk-qwen3:8b|run 3] Q07 ok    59.3s  helpdesk_orchestrator -> policy_agent  | 'The Major examinations for Semester I of AY 2026-27 are scheduled from **30 November to 6 '
+[multi|helpdesk-qwen3:8b|run 3] Q08 ok    58.4s  helpdesk_orchestrator -> policy_agent  | 'The Minor Examination in Semester I 2026-27 is scheduled from **15-20 September 2026 (Tue-'
+[multi|helpdesk-qwen3:8b|run 3] Q09 REF  113.6s  helpdesk_orchestrator -> policy_agent  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 3] Q10 ok    76.5s  helpdesk_orchestrator -> policy_agent  | 'The minimum CGPA required to graduate from an M.Tech. programme is **5.0**.  \nSource: PG R'
+[multi|helpdesk-qwen3:8b|run 3] Q11 ok    65.2s  helpdesk_orchestrator -> policy_agent  | 'A B.Tech. student must have earned **85 credits with a CGPA >= 6.0** to register for a 700'
+[multi|helpdesk-qwen3:8b|run 3] Q12 ok    77.2s  helpdesk_orchestrator -> policy_agent  | '20 October 2026 is a holiday (Dussehra / Vijay Dashmi) at the institute.  \nSource: Academi'
+[multi|helpdesk-qwen3:8b|run 3] Q13 ok    47.9s  helpdesk_orchestrator -> schedule_agent  | 'The slot for the course "Autonomous Systems (AI+X)" (code CSL7650) is **E**.  \nSource: Fin'
+[multi|helpdesk-qwen3:8b|run 3] Q14 ok    36.5s  helpdesk_orchestrator -> schedule_agent  | 'Slot M1 meets on Mon 13:00-14:50 (lab (2 h)).  \nSource: Slot System AY 2026-27 Semester I'
+[multi|helpdesk-qwen3:8b|run 3] Q15 ok    47.0s  helpdesk_orchestrator -> schedule_agent  | 'Susil Kumar Mohanty is teaching Operating Systems in slot B.  \nSource: Finalized Courses L'
+[multi|helpdesk-qwen3:8b|run 3] Q16 ok    69.7s  helpdesk_orchestrator -> schedule_agent  | 'The Humanities department has floated **1** 400-level elective this semester:  \n**LAL4070 '
+[multi|helpdesk-qwen3:8b|run 3] Q17 ok    34.9s  helpdesk_orchestrator -> schedule_agent  | 'CSL7360 Computer Vision is in slot **I**, taught by **Deepak Mishra**.  \nSource: Finalized'
+[multi|helpdesk-qwen3:8b|run 3] Q18 ok    85.9s  helpdesk_orchestrator -> schedule_agent  | 'The Mechanical Engineering department has floated **9 programme electives** for B.Tech. st'
+[multi|helpdesk-qwen3:8b|run 3] Q19 ok    77.1s  helpdesk_orchestrator -> schedule_agent  | 'Second-year ME students with roll numbers 41 to 80 have their IML lab in slot **M2**.  \n\nS'
+[multi|helpdesk-qwen3:8b|run 3] Q20 ok    46.4s  helpdesk_orchestrator -> policy_agent  | 'No, students are allowed to register for only one course per slot.  \nSource: Course Regist'
+[multi|helpdesk-qwen3:8b|run 3] Q21 ok    41.1s  helpdesk_orchestrator -> email_agent  | 'The course code "CSL7570" is not listed in the AY 2026-27 Semester I course catalog, so it'
+[multi|helpdesk-qwen3:8b|run 3] Q22 ok    61.8s  helpdesk_orchestrator -> email_agent  | 'I have found the instructor for CSL7650: Gaurav Harit (gaurav.harit@iitj-dummy.ac.in). To '
+[multi|helpdesk-qwen3:8b|run 3] Q23 ok   105.2s  helpdesk_orchestrator -> email_agent  | 'Here is your draft email to **Prof. Pratyaksh Karan** (pratyaksh.karan@iitj-dummy.ac.in) f'
+[multi|helpdesk-qwen3:8b|run 3] Q24 ok    45.5s  helpdesk_orchestrator -> email_agent  | 'The instructor for **Database Systems** (course code: CSL3050) is **Nitin Awathare** <niti'
+[multi|helpdesk-qwen3:8b|run 3] Q25 REF   22.2s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 3] Q26 REF   30.9s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 3] Q27 REF    9.5s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 3] Q28 REF   45.1s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 3] Q29 REF   62.8s  helpdesk_orchestrator -> policy_agent  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-qwen3:8b|run 3] Q30 REF   22.7s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-llama3.1:8b|run 1] Q01 ok    24.5s  helpdesk_orchestrator -> policy_agent  | 'To sit in the Major exam, a student is required to have at least 75% attendance in the cou'
+[multi|helpdesk-llama3.1:8b|run 1] Q02 ok     7.5s  helpdesk_orchestrator -> policy_agent  | 'You need to earn 12 credits of Open Elective courses to get a B.Tech. degree.\n\nSource: UG '
+[multi|helpdesk-llama3.1:8b|run 1] Q03 ok     7.5s  helpdesk_orchestrator -> policy_agent  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[multi|helpdesk-llama3.1:8b|run 1] Q04 ok     6.5s  helpdesk_orchestrator -> policy_agent  | 'You must apply for a make-up examination within 10 days of missing an exam.\n\nSource: Acade'
+[multi|helpdesk-llama3.1:8b|run 1] Q05 ok     7.7s  helpdesk_orchestrator -> policy_agent  | 'The maximum number of credits a B.Tech student can register for in a semester is 25. \n\nSou'
+[multi|helpdesk-llama3.1:8b|run 1] Q06 ok     8.3s  helpdesk_orchestrator -> policy_agent  | 'The tuition fee per semester for a B.Tech student whose family income is more than 5 lakh '
+[multi|helpdesk-llama3.1:8b|run 1] Q07 ok     7.9s  helpdesk_orchestrator -> policy_agent  | 'The Major examinations for Semester I of AY 2026-27 will be held from 30th November to 6th'
+[multi|helpdesk-llama3.1:8b|run 1] Q08 ok     7.2s  helpdesk_orchestrator -> policy_agent  | 'The Minor examination in Semester I 2026-27 is on 19-26 November 2026.\n\nSource: Academic C'
+[multi|helpdesk-llama3.1:8b|run 1] Q09 ok    13.0s  helpdesk_orchestrator -> schedule_agent  | "The timetable to be followed on Saturday, 24th October 2026 is Thursday's Time Table.\n\nSou"
+[multi|helpdesk-llama3.1:8b|run 1] Q10 ok     7.9s  helpdesk_orchestrator -> policy_agent  | 'The minimum CGPA required to graduate from an M.Tech. programme is 5.0. \n\nSource: Academic'
+[multi|helpdesk-llama3.1:8b|run 1] Q11 ok     8.4s  helpdesk_orchestrator -> policy_agent  | 'To register for a 700-level course, a B.Tech. student must have earned at least 85 credits'
+[multi|helpdesk-llama3.1:8b|run 1] Q12 ok     8.7s  helpdesk_orchestrator -> policy_agent  | 'The holiday on 20 October 2026 is Dussehra (Mahanavami).\n\nSource: Institute Holidays Calen'
+[multi|helpdesk-llama3.1:8b|run 1] Q13 ok     4.6s  helpdesk_orchestrator -> schedule_agent  | 'The slot for the course Autonomous Systems is E. \nSource: Finalized Courses List AY 2026-2'
+[multi|helpdesk-llama3.1:8b|run 1] Q14 ok     5.1s  helpdesk_orchestrator -> schedule_agent  | 'The slot M1 meets on Monday from 13:00-14:50 for a 2-hour lab session. Source: Slot System'
+[multi|helpdesk-llama3.1:8b|run 1] Q15 ok     5.0s  helpdesk_orchestrator -> schedule_agent  | 'The instructor teaching Operating Systems this semester is Susil Kumar Mohanty, and the sl'
+[multi|helpdesk-llama3.1:8b|run 1] Q16 ok     7.0s  helpdesk_orchestrator -> schedule_agent  | 'The count of 400 level electives floated by the Humanities department in this semester is '
+[multi|helpdesk-llama3.1:8b|run 1] Q17 ok     5.2s  helpdesk_orchestrator -> schedule_agent  | 'The slot for CSL7360 Computer Vision is I, and it is taught by Deepak Mishra.\n\nSource: Fin'
+[multi|helpdesk-llama3.1:8b|run 1] Q18 ok     4.9s  helpdesk_orchestrator -> schedule_agent  | 'Source: Finalized Courses List AY 2026-27 Semester I'
+[multi|helpdesk-llama3.1:8b|run 1] Q19 ok     8.8s  helpdesk_orchestrator -> schedule_agent  | 'The lab slot for ME students with roll numbers 41 to 80 is M2. \n\nSource: Slot System for B'
+[multi|helpdesk-llama3.1:8b|run 1] Q20 ok     9.8s  helpdesk_orchestrator -> policy_agent  | 'You cannot register for two different courses that run in the same slot. According to the '
+[multi|helpdesk-llama3.1:8b|run 1] Q21 ok     5.4s  helpdesk_orchestrator -> email_agent  | "The course CSL7570 is not in this semester's course list. Please check the course code."
+[multi|helpdesk-llama3.1:8b|run 1] Q22 ok     9.7s  helpdesk_orchestrator -> email_agent  | 'I will call the `save_email_draft` tool to draft an email to the instructor.\n\n{"name": "sa'
+[multi|helpdesk-llama3.1:8b|run 1] Q23 ok     9.8s  helpdesk_orchestrator -> email_agent  | 'I found the instructor for Fluid Mechanics. The instructor is Pratyaksh Karan (pratyaksh.k'
+[multi|helpdesk-llama3.1:8b|run 1] Q24 ok     5.6s  helpdesk_orchestrator -> email_agent  | 'The email ID of the instructor teaching Database Systems is nitin.awathare@iitj-dummy.ac.i'
+[multi|helpdesk-llama3.1:8b|run 1] Q25 REF    3.9s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-llama3.1:8b|run 1] Q26 REF    4.3s  helpdesk_orchestrator  | '"I don\'t know the answer to that from the academic documents I have access to. I have logg'
+[multi|helpdesk-llama3.1:8b|run 1] Q27 REF    4.2s  helpdesk_orchestrator  | '"I don\'t know the answer to that from the academic documents I have access to. I have logg'
+[multi|helpdesk-llama3.1:8b|run 1] Q28 REF    4.0s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-llama3.1:8b|run 1] Q29 REF    3.9s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-llama3.1:8b|run 1] Q30 REF    4.2s  helpdesk_orchestrator  | '"I don\'t know the answer to that from the academic documents I have access to. I have logg'
+[multi|helpdesk-llama3.1:8b|run 2] Q01 ok    10.1s  helpdesk_orchestrator -> policy_agent  | "A student needs to have at least 75% attendance to sit in the Major exam. If the student's"
+[multi|helpdesk-llama3.1:8b|run 2] Q02 ok     5.8s  helpdesk_orchestrator -> policy_agent  | 'You need to earn 12 credits of Open Elective courses to get a B.Tech. degree.\n\nSource: UG '
+[multi|helpdesk-llama3.1:8b|run 2] Q03 ok     6.0s  helpdesk_orchestrator -> policy_agent  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[multi|helpdesk-llama3.1:8b|run 2] Q04 ok     5.2s  helpdesk_orchestrator -> policy_agent  | 'You must apply for a make-up examination within 10 days of missing an exam.\n\nSource: Acade'
+[multi|helpdesk-llama3.1:8b|run 2] Q05 ok     7.5s  helpdesk_orchestrator -> policy_agent  | 'The maximum number of credits a B.Tech student can register for in a semester is 4. \n\nSour'
+[multi|helpdesk-llama3.1:8b|run 2] Q06 ok     8.0s  helpdesk_orchestrator -> policy_agent  | 'The tuition fee per semester for a B.Tech student whose family income is more than 5 lakh '
+[multi|helpdesk-llama3.1:8b|run 2] Q07 ok     6.2s  helpdesk_orchestrator -> policy_agent  | 'The Major examinations for Semester I of AY 2026-27 will be held from 30th November to 6th'
+[multi|helpdesk-llama3.1:8b|run 2] Q08 ok     5.7s  helpdesk_orchestrator -> policy_agent  | 'The Minor examination in Semester I 2026-27 is scheduled to take place from 19-26 November'
+[multi|helpdesk-llama3.1:8b|run 2] Q09 ok     5.8s  helpdesk_orchestrator -> schedule_agent  | "The timetable to be followed on Saturday, 24th October 2026 is Thursday's Time Table.\n\nSou"
+[multi|helpdesk-llama3.1:8b|run 2] Q10 ok     5.9s  helpdesk_orchestrator -> policy_agent  | 'The minimum CGPA required to graduate from an M.Tech. programme is 5.0. \n\nSource: Academic'
+[multi|helpdesk-llama3.1:8b|run 2] Q11 ok     8.7s  helpdesk_orchestrator -> policy_agent  | 'To register for a 700-level course, a B.Tech. student must have earned at least 85 credits'
+[multi|helpdesk-llama3.1:8b|run 2] Q12 ok     6.8s  helpdesk_orchestrator -> policy_agent  | 'The holiday on 20 October 2026 is Dussehra (Mahanavami).\n\nSource: Institute Holidays Calen'
+[multi|helpdesk-llama3.1:8b|run 2] Q13 ok     4.1s  helpdesk_orchestrator -> schedule_agent  | 'The slot for the course Autonomous Systems is E.\nSource: Finalized Courses List AY 2026-27'
+[multi|helpdesk-llama3.1:8b|run 2] Q14 ok     4.7s  helpdesk_orchestrator -> schedule_agent  | 'The slot M1 meets on Monday from 13:00-14:50 for a 2-hour lab session. Source: Slot System'
+[multi|helpdesk-llama3.1:8b|run 2] Q15 ok     4.5s  helpdesk_orchestrator -> schedule_agent  | 'The instructor for Operating Systems is Susil Kumar Mohanty, and the slot is B. \n\nSource: '
+[multi|helpdesk-llama3.1:8b|run 2] Q16 ok     5.1s  helpdesk_orchestrator -> schedule_agent  | 'The count of 400 level electives floated by the Humanities department in this semester is '
+[multi|helpdesk-llama3.1:8b|run 2] Q17 ok     4.8s  helpdesk_orchestrator -> schedule_agent  | 'The slot for CSL7360 Computer Vision is I, and it is taught by Deepak Mishra.\n\nSource: Fin'
+[multi|helpdesk-llama3.1:8b|run 2] Q18 ok     4.9s  helpdesk_orchestrator -> schedule_agent  | 'Source: Finalized Courses List AY 2026-27 Semester I'
+[multi|helpdesk-llama3.1:8b|run 2] Q19 ok     8.9s  helpdesk_orchestrator -> schedule_agent  | 'The lab slot for second-year ME students with roll numbers 41 to 80 for IML lab is M2.\n\nSo'
+[multi|helpdesk-llama3.1:8b|run 2] Q20 ok     8.5s  helpdesk_orchestrator -> policy_agent  | 'No, you cannot register for two different courses that run in the same slot. According to '
+[multi|helpdesk-llama3.1:8b|run 2] Q21 ok     4.4s  helpdesk_orchestrator -> email_agent  | "The course CSL7570 is not in this semester's course list. Please check the course code."
+[multi|helpdesk-llama3.1:8b|run 2] Q22 ok     7.8s  helpdesk_orchestrator -> email_agent  | 'I will call the `save_email_draft` tool to create the email draft.\n\n{"name": "save_email_d'
+[multi|helpdesk-llama3.1:8b|run 2] Q23 ok    11.5s  helpdesk_orchestrator -> email_agent  | 'I will draft an email to the instructor of Fluid Mechanics asking permission to take a mak'
+[multi|helpdesk-llama3.1:8b|run 2] Q24 ok     5.3s  helpdesk_orchestrator -> email_agent  | 'The email ID of the instructor teaching Database Systems is nitin.awathare@iitj-dummy.ac.i'
+[multi|helpdesk-llama3.1:8b|run 2] Q25 REF    3.8s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-llama3.1:8b|run 2] Q26 REF    4.3s  helpdesk_orchestrator  | '"I don\'t know the answer to that from the academic documents I have access to. I have logg'
+[multi|helpdesk-llama3.1:8b|run 2] Q27 REF    4.1s  helpdesk_orchestrator  | '"I don\'t know the answer to that from the academic documents I have access to. I have logg'
+[multi|helpdesk-llama3.1:8b|run 2] Q28 REF    4.0s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-llama3.1:8b|run 2] Q29 REF    3.9s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-llama3.1:8b|run 2] Q30 REF    4.1s  helpdesk_orchestrator  | '"I don\'t know the answer to that from the academic documents I have access to. I have logg'
+[multi|helpdesk-llama3.1:8b|run 3] Q01 ok     8.1s  helpdesk_orchestrator -> policy_agent  | 'To sit in the Major exam, a student is required to have at least 75% attendance in the cou'
+[multi|helpdesk-llama3.1:8b|run 3] Q02 ok     5.8s  helpdesk_orchestrator -> policy_agent  | 'You need to earn 12 credits of Open Elective courses to get a B.Tech. degree.\n\nSource: UG '
+[multi|helpdesk-llama3.1:8b|run 3] Q03 ok     7.4s  helpdesk_orchestrator -> policy_agent  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[multi|helpdesk-llama3.1:8b|run 3] Q04 ok     5.2s  helpdesk_orchestrator -> policy_agent  | 'You must apply for a make-up examination within 10 days of missing an exam.\n\nSource: Acade'
+[multi|helpdesk-llama3.1:8b|run 3] Q05 ok     5.9s  helpdesk_orchestrator -> policy_agent  | 'The maximum number of credits a B.Tech student can register for in a semester is 25. \n\nSou'
+[multi|helpdesk-llama3.1:8b|run 3] Q06 ok     6.2s  helpdesk_orchestrator -> policy_agent  | 'The tuition fee per semester for a B.Tech student whose family income is more than 5 lakh '
+[multi|helpdesk-llama3.1:8b|run 3] Q07 ok     6.2s  helpdesk_orchestrator -> policy_agent  | 'The Major examinations for Semester I of AY 2026-27 will be held from 30 November 2026, Mo'
+[multi|helpdesk-llama3.1:8b|run 3] Q08 ok     7.1s  helpdesk_orchestrator -> policy_agent  | 'The Minor examination in Semester I 2026-27 is scheduled to take place from 19-26 November'
+[multi|helpdesk-llama3.1:8b|run 3] Q09 ok     5.7s  helpdesk_orchestrator -> schedule_agent  | "The timetable to be followed on Saturday, 24th October 2026 is Thursday's Time Table.\n\nSou"
+[multi|helpdesk-llama3.1:8b|run 3] Q10 ok     5.8s  helpdesk_orchestrator -> policy_agent  | 'The minimum CGPA required to graduate from an M.Tech. programme is 5.0. \n\nSource: Academic'
+[multi|helpdesk-llama3.1:8b|run 3] Q11 ok     6.5s  helpdesk_orchestrator -> policy_agent  | 'To register for a 700-level course, a B.Tech. student must have earned at least 85 credits'
+[multi|helpdesk-llama3.1:8b|run 3] Q12 ok     6.8s  helpdesk_orchestrator -> policy_agent  | 'The holiday on 20 October 2026 is Dussehra (Mahanavami).\n\nSource: Institute Holidays Calen'
+[multi|helpdesk-llama3.1:8b|run 3] Q13 ok     4.1s  helpdesk_orchestrator -> schedule_agent  | 'The slot for the course Autonomous Systems is E. Source: Finalized Courses List AY 2026-27'
+[multi|helpdesk-llama3.1:8b|run 3] Q14 ok     4.7s  helpdesk_orchestrator -> schedule_agent  | 'The slot M1 meets on Monday from 13:00-14:50 for a 2-hour lab.\n\nSource: Slot System AY 202'
+[multi|helpdesk-llama3.1:8b|run 3] Q15 ok     4.6s  helpdesk_orchestrator -> schedule_agent  | 'The instructor for Operating Systems is Susil Kumar Mohanty, and it is offered in slot B. '
+[multi|helpdesk-llama3.1:8b|run 3] Q16 ok     5.1s  helpdesk_orchestrator -> schedule_agent  | 'The number of 400 level electives floated by the Humanities department in this semester is'
+[multi|helpdesk-llama3.1:8b|run 3] Q17 ok     4.8s  helpdesk_orchestrator -> schedule_agent  | 'The slot for CSL7360 Computer Vision is I, and it is taught by Deepak Mishra.\n\nSource: Fin'
+[multi|helpdesk-llama3.1:8b|run 3] Q18 ok     4.9s  helpdesk_orchestrator -> schedule_agent  | 'Source: Finalized Courses List AY 2026-27 Semester I'
+[multi|helpdesk-llama3.1:8b|run 3] Q19 ok     8.8s  helpdesk_orchestrator -> schedule_agent  | 'The lab slot for ME students with roll numbers 41 to 80 for the IML lab is M2.\n\nSource: Sl'
+[multi|helpdesk-llama3.1:8b|run 3] Q20 ok     6.8s  helpdesk_orchestrator -> policy_agent  | 'You cannot register for two different courses that run in the same slot. According to the '
+[multi|helpdesk-llama3.1:8b|run 3] Q21 REF    6.6s  helpdesk_orchestrator -> email_agent  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-llama3.1:8b|run 3] Q22 ok     7.7s  helpdesk_orchestrator -> email_agent  | 'I will call the `save_email_draft` tool with the course, purpose, details, student_name, a'
+[multi|helpdesk-llama3.1:8b|run 3] Q23 ok     9.6s  helpdesk_orchestrator -> email_agent  | 'I will draft an email to the instructor of Fluid Mechanics asking permission to take a mak'
+[multi|helpdesk-llama3.1:8b|run 3] Q24 ok     5.3s  helpdesk_orchestrator -> email_agent  | 'The email ID of the instructor teaching Database Systems is nitin.awathare@iitj-dummy.ac.i'
+[multi|helpdesk-llama3.1:8b|run 3] Q25 REF    3.8s  helpdesk_orchestrator  | '"I don\'t know the answer to that from the academic documents I have access to. I have logg'
+[multi|helpdesk-llama3.1:8b|run 3] Q26 REF    4.3s  helpdesk_orchestrator  | '"I don\'t know the answer to that from the academic documents I have access to. I have logg'
+[multi|helpdesk-llama3.1:8b|run 3] Q27 REF    4.1s  helpdesk_orchestrator  | '"I don\'t know the answer to that from the academic documents I have access to. I have logg'
+[multi|helpdesk-llama3.1:8b|run 3] Q28 REF    3.9s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-llama3.1:8b|run 3] Q29 REF    3.9s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[multi|helpdesk-llama3.1:8b|run 3] Q30 REF    4.1s  helpdesk_orchestrator  | '"I don\'t know the answer to that from the academic documents I have access to. I have logg'
+
+Traces in /home/akshay/Downloads/academic-helpdesk-agent/eval/results/raw_traces.jsonl. Now run: python eval/score.py
+[single|helpdesk-qwen3:8b|run 1] Q01 ok    98.3s  academic_helpdesk  | 'The attendance requirement to sit in the Major exam is 75%. Students with attendance below'
+[single|helpdesk-qwen3:8b|run 1] Q02 ok    53.5s  academic_helpdesk  | 'For a regular B.Tech. degree, you need to earn **12 credits** of Open Elective (OE) course'
+[single|helpdesk-qwen3:8b|run 1] Q03 ok    38.2s  academic_helpdesk  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[single|helpdesk-qwen3:8b|run 1] Q04 ok    33.6s  academic_helpdesk  | 'You must apply for a make-up examination within **ten days** from the date of the missed e'
+[single|helpdesk-qwen3:8b|run 1] Q05 REF   85.6s  academic_helpdesk  | 'The academic documents I have access to do not specify the maximum number of credits a B.T'
+[single|helpdesk-qwen3:8b|run 1] Q06 ok    52.5s  academic_helpdesk  | 'The tuition fee per semester for a B.Tech student with family income more than 5 lakh is ₹'
+[single|helpdesk-qwen3:8b|run 1] Q07 ok   100.9s  academic_helpdesk  | 'The Major examinations for Semester I of AY 2026-27 are scheduled from **30 November to 6 '
+[single|helpdesk-qwen3:8b|run 1] Q08 ok    78.1s  academic_helpdesk  | 'The Minor examination in Semester I 2026-27 is scheduled from **15–20 September 2026 (Tues'
+[single|helpdesk-qwen3:8b|run 1] Q09 ok    61.5s  academic_helpdesk  | 'The timetable for Thursday will be followed on Saturday, 24th October 2026.  \nSource: Acad'
+[single|helpdesk-qwen3:8b|run 1] Q10 ok    50.0s  academic_helpdesk  | 'The minimum CGPA required to graduate from an M.Tech. programme is **5.0**.  \n\nSource: Aca'
+[single|helpdesk-qwen3:8b|run 1] Q11 ok    56.8s  academic_helpdesk  | 'A B.Tech. student must have earned **85 credits with a CGPA of at least 6** to register fo'
+[single|helpdesk-qwen3:8b|run 1] Q12 ok    38.7s  academic_helpdesk  | 'Yes, 20 October 2026 is a holiday at the institute. It is observed as **Dussehra (Vijay Da'
+[single|helpdesk-qwen3:8b|run 1] Q13 ok    38.5s  academic_helpdesk  | 'The slot for the course **Autonomous Systems (AI+X)** is **E**.  \nSource: Finalized Course'
+[single|helpdesk-qwen3:8b|run 1] Q14 ok    20.6s  academic_helpdesk  | 'Slot M1 meets on **Mon 13:00-14:50 (lab (2 h))**.  \nSource: Slot System AY 2026-27 Semeste'
+[single|helpdesk-qwen3:8b|run 1] Q15 ok    25.1s  academic_helpdesk  | 'The course "Operating Systems" is taught by Susil Kumar Mohanty in slot B.  \nSource: Final'
+[single|helpdesk-qwen3:8b|run 1] Q16 ok   105.8s  academic_helpdesk  | 'There is **1** 400-level elective floated by the Humanities department this semester:  \n**'
+[single|helpdesk-qwen3:8b|run 1] Q17 ok    30.1s  academic_helpdesk  | 'CSL7360 Computer Vision is in slot **I**, taught by **Deepak Mishra**.  \nDepartment: Compu'
+[single|helpdesk-qwen3:8b|run 1] Q18 ok    41.9s  academic_helpdesk  | 'The Mechanical Engineering department has floated **9 programme electives** for B.Tech. st'
+[single|helpdesk-qwen3:8b|run 1] Q19 ok    93.6s  academic_helpdesk  | 'Second-year Mechanical Engineering (ME) students with roll numbers 41–80 have their IML la'
+[single|helpdesk-qwen3:8b|run 1] Q20 ok    38.6s  academic_helpdesk  | 'No, students are allowed to register for only one course per slot. \n\nSource: Course Regist'
+[single|helpdesk-qwen3:8b|run 1] Q21 ok    26.6s  academic_helpdesk  | 'The course code "CSL7570" is not found in the AY 2026-27 Semester I course list. Please ve'
+[single|helpdesk-qwen3:8b|run 1] Q22 ok    54.2s  academic_helpdesk  | 'Here is your email draft for sick leave in CSL7650:\n\n---\n\n**Subject:** Leave application -'
+[single|helpdesk-qwen3:8b|run 1] Q23 ok   164.2s  academic_helpdesk  | 'Here is your draft email to the instructor of Fluid Mechanics (MEL2040):\n\n**To:** pratyaks'
+[single|helpdesk-qwen3:8b|run 1] Q24 ok    34.6s  academic_helpdesk  | 'The email ID of the instructor for Database Systems (course code CSL3050) is **nitin.awath'
+[single|helpdesk-qwen3:8b|run 1] Q25 REF   23.3s  academic_helpdesk  | 'The question about dining options is outside the scope of academic documents and tools ava'
+[single|helpdesk-qwen3:8b|run 1] Q26 REF   23.4s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 1] Q27 REF   22.5s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 1] Q28 REF   58.6s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 1] Q29 ok    65.9s  academic_helpdesk  | 'The monthly hostel mess fee is not specified in the provided academic documents. For detai'
+[single|helpdesk-qwen3:8b|run 1] Q30 ok    21.5s  academic_helpdesk  | 'The question has been logged with the academic office. Let me know if you need help with a'
+[single|helpdesk-qwen3:8b|run 2] Q01 ok    71.5s  academic_helpdesk  | 'The attendance requirement to sit in the Major exam is a minimum of 75% attendance in the '
+[single|helpdesk-qwen3:8b|run 2] Q02 ok    48.6s  academic_helpdesk  | 'To earn a B.Tech. degree, you need to complete **12 credits of Open Elective (OE) courses*'
+[single|helpdesk-qwen3:8b|run 2] Q03 ok    47.0s  academic_helpdesk  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[single|helpdesk-qwen3:8b|run 2] Q04 ok    30.2s  academic_helpdesk  | 'You must apply for a make-up examination within **ten days** from the date of the missed e'
+[single|helpdesk-qwen3:8b|run 2] Q05 REF   65.0s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 2] Q06 ok    45.6s  academic_helpdesk  | 'The tuition fee per semester for a B.Tech student with family income more than 5 lakh is ₹'
+[single|helpdesk-qwen3:8b|run 2] Q07 ok    67.3s  academic_helpdesk  | 'The Major examinations for Semester I of AY 2026-27 are scheduled from **30th November to '
+[single|helpdesk-qwen3:8b|run 2] Q08 ok    75.2s  academic_helpdesk  | 'The Minor examination in Semester I 2026-27 is scheduled from **15-20 September 2026, Tue-'
+[single|helpdesk-qwen3:8b|run 2] Q09 ok   131.8s  academic_helpdesk  | 'The academic documents do not specify whether Saturday, 24th October 2026, is a holiday or'
+[single|helpdesk-qwen3:8b|run 2] Q10 ok    61.4s  academic_helpdesk  | 'The minimum CGPA required to graduate from an M.Tech. programme is **5.0**.  \nSource: PG R'
+[single|helpdesk-qwen3:8b|run 2] Q11 ok    46.9s  academic_helpdesk  | 'A B.Tech. student must have earned **85 credits** with a **CGPA of at least 6** to registe'
+[single|helpdesk-qwen3:8b|run 2] Q12 ok    45.7s  academic_helpdesk  | 'Yes, 20 October 2026 is a holiday at IIT Jodhpur. It is listed as **Dussehra (Vijay Dashmi'
+[single|helpdesk-qwen3:8b|run 2] Q13 ok    24.6s  academic_helpdesk  | 'The slot for the course "Autonomous Systems (AI+X)" is **E**.  \nSource: Finalized Courses '
+[single|helpdesk-qwen3:8b|run 2] Q14 ok    20.7s  academic_helpdesk  | 'Slot M1 meets on **Mon 13:00-14:50 (lab (2 h))**.  \nSource: Slot System AY 2026-27 Semeste'
+[single|helpdesk-qwen3:8b|run 2] Q15 ok    25.5s  academic_helpdesk  | 'The course "Operating Systems" is taught by Susil Kumar Mohanty in slot B.  \nSource: Final'
+[single|helpdesk-qwen3:8b|run 2] Q16 ok   112.9s  academic_helpdesk  | 'The Humanities department has floated **1** 400-level elective this semester: **Health Eco'
+[single|helpdesk-qwen3:8b|run 2] Q17 ok    41.8s  academic_helpdesk  | 'CSL7360 Computer Vision is in slot **I** and taught by **Deepak Mishra**.  \nSource: Finali'
+[single|helpdesk-qwen3:8b|run 2] Q18 ok    37.4s  academic_helpdesk  | 'The Mechanical Engineering department has floated 9 programme electives (PE) for B.Tech. s'
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/akshay/Downloads/academic-helpdesk-agent/eval/run_eval.py", line 64, in main
+    t = await ask_once(agent, q["question"], a.timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/akshay/Downloads/academic-helpdesk-agent/helpdesk/runner.py", line 96, in ask_once
+    return await HelpdeskSession(agent).ask(question, timeout_s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/akshay/Downloads/academic-helpdesk-agent/helpdesk/runner.py", line 73, in ask
+    await asyncio.wait_for(_consume(), timeout=timeout_s)
+  File "/usr/lib/python3.14/asyncio/tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/akshay/Downloads/academic-helpdesk-agent/helpdesk/runner.py", line 50, in _consume
+    async for ev in self.runner.run_async(user_id=self.user_id, session_id=self.session_id,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<19 lines>...
+                trace["answer"] = txt  # last non-empty model text wins
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/akshay/Downloads/academic-helpdesk-agent/.venv/lib/python3.14/site-packages/google/adk/runners.py", line 1232, in run_async
+    async for event in agen:
+      yield event
+  File "/home/akshay/Downloads/academic-helpdesk-agent/.venv/lib/python3.14/site-packages/google/adk/runners.py", line 610, in _run_node_async
+    async for event in agen:
+      yield event
+  File "/home/akshay/Downloads/academic-helpdesk-agent/.venv/lib/python3.14/site-packages/google/adk/workflow/_node_runner_utils.py", line 382, in run_node_async
+    async for event in agen:
+      yield event
+  File "/home/akshay/Downloads/academic-helpdesk-agent/.venv/lib/python3.14/site-packages/google/adk/telemetry/_instrumentation.py", line 166, in stream_in_scope
+    item = await _drive(owned.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/akshay/Downloads/academic-helpdesk-agent/.venv/lib/python3.14/site-packages/google/adk/telemetry/_instrumentation.py", line 154, in _drive
+    return await step
+           ^^^^^^^^^^
+  File "/home/akshay/Downloads/academic-helpdesk-agent/.venv/lib/python3.14/site-packages/google/adk/workflow/_node_runner_utils.py", line 295, in _run
+    async for event in agen:
+      yield event
+  File "/home/akshay/Downloads/academic-helpdesk-agent/.venv/lib/python3.14/site-packages/google/adk/runners.py", line 824, in _consume_event_queue
+    done, _ = await asyncio.wait(
+              ^^^^^^^^^^^^^^^^^^^
+        [get_task, abort_task], return_when=asyncio.FIRST_COMPLETED
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3.14/asyncio/tasks.py", line 432, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/tasks.py", line 521, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/akshay/Downloads/academic-helpdesk-agent/eval/run_eval.py", line 75, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 132, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+================ 1/8  Checking Python and Ollama ================
+
+================ 2/8  Starting Ollama server ================
+Ollama is running.
+
+================ 3/8  Downloading models (about 10 GB the first time) ================
+NAME                       ID              SIZE      MODIFIED     
+helpdesk-llama3.1:8b       7636c8d4230e    4.9 GB    16 hours ago    
+llama3.1:8b                46e0c10c039e    4.9 GB    16 hours ago    
+helpdesk-qwen3:8b          2bd7049b3606    5.2 GB    17 hours ago    
+qwen3:8b                   500a1f067a9f    5.2 GB    17 hours ago    
+nomic-embed-text:latest    0a109f422b47    274 MB    17 hours ago    
+
+================ 4/8  Python environment ================
+Python packages installed.
+
+================ 5/8  Preparing documents ================
+courses: 597 rows | slot timings: 61 rows | faculty: 331 people
+[skip] ug_pg_regulations_2019_onwards.pdf already present
+[skip] pg_regulations_2022_onwards.pdf already present
+[skip] btech_regulations_2018.pdf already present
+[skip] btech_regulations_2014_rev.pdf already present
+[skip] academic_calendar_executive_AY2026-27.pdf already present
+[skip] btech_me_curriculum_legacy.pdf already present
+[skip] btech_systems_science_curricula_legacy.pdf already present
+[skip] phd_me_curriculum.pdf already present
+[fail] mme_academic_regulations_2020.pdf: ConnectionError: HTTPSConnectionPool(host='mme.iitj.ac.in', port=443): Max retries exceeded with url: /data/Academic%20Regulations_docume
+
+Download these in a browser and save them into data/raw/ with exactly these names:
+  mme_academic_regulations_2020.pdf                <- https://mme.iitj.ac.in/data/Academic%20Regulations_document-2020-05-01-9-21-am.pdf
+
+>>> Some PDFs could not be downloaded automatically (list above).
+>>> Open each link in your browser, save the PDF into data/raw/ with the exact name shown,
+>>> then run this script again. Continuing now with the documents that are present.
+Press Enter to continue (auto-continues in 20 s)... 
+
+================ 6/8  Building the vector index ================
+Index already up to date (16 documents).
+
+================ 7/8  Smoke test (4 questions) ================
+App "iitj_academic_helpdesk" can transfer between agents but has no context_cache_config. Every transfer swaps the system instruction and the tool set, so the request prefix changes and the whole prompt is re-sent uncached after each transfer. Set context_cache_config on the app to give each agent its own cache.
+[multi|helpdesk-qwen3:8b|run 1] Q07 ok   108.6s  helpdesk_orchestrator -> policy_agent  | 'The Major examinations for Semester I of AY 2026-27 are scheduled from **30 November to 6 '
+[multi|helpdesk-qwen3:8b|run 1] Q13 ok    39.2s  helpdesk_orchestrator -> schedule_agent  | 'The slot for the course "Autonomous Systems" is **E**.  \nSource: Finalized Courses List AY'
+[multi|helpdesk-qwen3:8b|run 1] Q22 ok   123.6s  helpdesk_orchestrator -> email_agent  | 'To: gaurav.harit@iitj-dummy.ac.in  \nSubject: Leave application - CSL7650 Autonomous System'
+[multi|helpdesk-qwen3:8b|run 1] Q25 REF   19.5s  helpdesk_orchestrator  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+
+Traces in eval/results/smoke_traces.jsonl. Now run: python eval/score.py
+Smoke test passed. Starting the evaluation.
+
+================ 8/8  Evaluation ================
+
+Traces in /home/akshay/Downloads/academic-helpdesk-agent/eval/results/raw_traces.jsonl. Now run: python eval/score.py
+[single|helpdesk-qwen3:8b|run 2] Q19 ok   108.8s  academic_helpdesk  | 'The IML lab course was not found in the AY 2026-27 Semester I course list. However, second'
+[single|helpdesk-qwen3:8b|run 2] Q20 ok    37.9s  academic_helpdesk  | 'No, students are allowed to register for only one course per slot. \n\nSource: Course Regist'
+[single|helpdesk-qwen3:8b|run 2] Q21 REF   31.9s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 2] Q22 ok    55.2s  academic_helpdesk  | 'Here is your email draft for leave:\n\n**To:** gaurav.harit@iitj-dummy.ac.in  \n**Subject:** '
+[single|helpdesk-qwen3:8b|run 2] Q23 ok   116.0s  academic_helpdesk  | 'Here is your draft email to **Prof. Pratyaksh Karan** (pratyaksh.karan@iitj-dummy.ac.in) f'
+[single|helpdesk-qwen3:8b|run 2] Q24 ok    32.4s  academic_helpdesk  | 'The email ID of the instructor for Database Systems (course code CSL3050) is **nitin.awath'
+[single|helpdesk-qwen3:8b|run 2] Q25 REF   25.9s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 2] Q26 REF   19.2s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 2] Q27 REF   21.2s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 2] Q28 ok    88.6s  academic_helpdesk  | "Here's a Python function to reverse a linked list:\n\n```python\nclass Node:\n    def __init__"
+[single|helpdesk-qwen3:8b|run 2] Q29 ok    69.2s  academic_helpdesk  | 'The academic documents do not specify a monthly hostel mess fee; they only outline semeste'
+[single|helpdesk-qwen3:8b|run 2] Q30 REF   29.5s  academic_helpdesk  | 'The average placement package for CSE students last year is not available through the acad'
+[single|helpdesk-qwen3:8b|run 3] Q01 ok    76.4s  academic_helpdesk  | 'The attendance requirement to sit in the Major exam is a minimum of 75% attendance in the '
+[single|helpdesk-qwen3:8b|run 3] Q02 ok    57.2s  academic_helpdesk  | 'For a regular B.Tech. degree, students are required to complete **12 credits of Open Elect'
+[single|helpdesk-qwen3:8b|run 3] Q03 ok    46.6s  academic_helpdesk  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[single|helpdesk-qwen3:8b|run 3] Q04 ok    32.5s  academic_helpdesk  | 'You must apply for a make-up examination within **ten days** from the date of the missed e'
+[single|helpdesk-qwen3:8b|run 3] Q05 REF   76.9s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 3] Q06 ok    61.4s  academic_helpdesk  | 'The tuition fee per semester for a B.Tech student with family income more than 5 lakh is ₹'
+[single|helpdesk-qwen3:8b|run 3] Q07 ok    60.1s  academic_helpdesk  | 'The Major examinations for Semester I of AY 2026-27 are scheduled from **30th November to '
+[single|helpdesk-qwen3:8b|run 3] Q08 ok    53.2s  academic_helpdesk  | 'The Minor Examination in Semester I 2026-27 is scheduled from **15-20 September 2026, Tue-'
+[single|helpdesk-qwen3:8b|run 3] Q09 ok   100.3s  academic_helpdesk  | 'The timetable for Saturday will be followed on Saturday, 24th October 2026, as there are n'
+[single|helpdesk-qwen3:8b|run 3] Q10 ok    64.2s  academic_helpdesk  | 'The minimum CGPA required to graduate from an M.Tech. programme is **5.0**.  \n\nSource: PG '
+[single|helpdesk-qwen3:8b|run 3] Q11 ok    47.6s  academic_helpdesk  | 'A B.Tech. student must have earned **85 credits** with a CGPA of **6 or higher** to regist'
+[single|helpdesk-qwen3:8b|run 3] Q12 ok    37.3s  academic_helpdesk  | 'Yes, 20 October 2026 is a holiday at IIT Jodhpur. It is observed as **Dussehra (Mahanavami'
+[single|helpdesk-qwen3:8b|run 3] Q13 ok    28.0s  academic_helpdesk  | 'The slot for the course **Autonomous Systems (AI+X)** is **E**.  \nCourse code: CSL7650, De'
+[single|helpdesk-qwen3:8b|run 3] Q14 ok    21.5s  academic_helpdesk  | 'Slot M1 meets on **Monday 13:00-14:50 (lab, 2 hours)**.  \nSource: Slot System AY 2026-27 S'
+[single|helpdesk-qwen3:8b|run 3] Q15 ok    32.8s  academic_helpdesk  | 'Susil Kumar Mohanty is teaching Operating Systems (course code CSL3030) in slot B.  \nSourc'
+[single|helpdesk-qwen3:8b|run 3] Q16 ok    64.0s  academic_helpdesk  | 'There is **1** 400-level elective floated by the Humanities department this semester:  \n**'
+[single|helpdesk-qwen3:8b|run 3] Q17 ok    30.7s  academic_helpdesk  | 'CSL7360 Computer Vision is in slot **I** and is taught by **Deepak Mishra**.  \nSource: Fin'
+[single|helpdesk-qwen3:8b|run 3] Q18 ok    54.8s  academic_helpdesk  | 'The Mechanical Engineering department has floated **9 programme electives** for B.Tech. st'
+[single|helpdesk-qwen3:8b|run 3] Q19 ok    81.9s  academic_helpdesk  | 'The second-year Mechanical Engineering (ME) students with roll numbers 41–80 likely have t'
+[single|helpdesk-qwen3:8b|run 3] Q20 ok    43.5s  academic_helpdesk  | 'No, you cannot register for two different courses that run in the same slot. Students are '
+[single|helpdesk-qwen3:8b|run 3] Q21 ok    36.1s  academic_helpdesk  | 'The course code "CSL7570" is not listed in the AY 2026-27 Semester I course catalog. Pleas'
+[single|helpdesk-qwen3:8b|run 3] Q22 ok    50.4s  academic_helpdesk  | 'Here is your email draft to **Prof. Gaurav Harit** for **CSL7650 Autonomous Systems (AI+X)'
+[single|helpdesk-qwen3:8b|run 3] Q23 ok    74.8s  academic_helpdesk  | 'Here is your draft email to the instructor of **Fluid Mechanics (MEL2040)**:\n\n---\n\n**Subje'
+[single|helpdesk-qwen3:8b|run 3] Q24 ok    40.4s  academic_helpdesk  | 'The email ID of the instructor for Database Systems (CSL3050) is **nitin.awathare@iitj-dum'
+[single|helpdesk-qwen3:8b|run 3] Q25 REF   24.0s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 3] Q26 REF   23.7s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 3] Q27 REF   23.0s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-qwen3:8b|run 3] Q28 REF   47.7s  academic_helpdesk  | 'The question is outside the scope of academic documents and regulations. I have logged you'
+[single|helpdesk-qwen3:8b|run 3] Q29 REF   54.9s  academic_helpdesk  | 'The monthly hostel mess fee details are not specified in the available academic documents.'
+[single|helpdesk-qwen3:8b|run 3] Q30 REF   25.9s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 1] Q01 ok    22.5s  academic_helpdesk  | 'According to the Academic Programmes Rules and Regulations (students enrolled from July 20'
+[single|helpdesk-llama3.1:8b|run 1] Q02 ok     7.4s  academic_helpdesk  | 'According to the UG Curriculum for B.Tech. in Computer Science and Engineering (revised), '
+[single|helpdesk-llama3.1:8b|run 1] Q03 ok     6.0s  academic_helpdesk  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[single|helpdesk-llama3.1:8b|run 1] Q04 ok     5.2s  academic_helpdesk  | 'You must apply for a make-up examination within 10 days from the date of the examination m'
+[single|helpdesk-llama3.1:8b|run 1] Q05 ok     6.0s  academic_helpdesk  | 'The maximum number of credits a B.Tech student can register for in a semester is 4. \n\nSour'
+[single|helpdesk-llama3.1:8b|run 1] Q06 ok     6.7s  academic_helpdesk  | 'The tuition fee per semester for a B.Tech student whose family income is more than 5 lakh '
+[single|helpdesk-llama3.1:8b|run 1] Q07 ok     6.4s  academic_helpdesk  | 'The Major examinations for Semester I of AY 2026-27 are scheduled to take place from 30th '
+[single|helpdesk-llama3.1:8b|run 1] Q08 ok     6.0s  academic_helpdesk  | 'The Minor examination in Semester I 2026-27 is scheduled to take place from 15-20 Septembe'
+[single|helpdesk-llama3.1:8b|run 1] Q09 REF    5.3s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 1] Q10 ok     7.4s  academic_helpdesk  | 'The minimum CGPA required to graduate from an M.Tech. programme is 5.0. \n\nSource: Academic'
+[single|helpdesk-llama3.1:8b|run 1] Q11 ok     6.8s  academic_helpdesk  | 'A B.Tech. student must have earned at least 85 credits with a CGPA of 6 to register for a '
+[single|helpdesk-llama3.1:8b|run 1] Q12 ok     6.8s  academic_helpdesk  | 'The holiday on 20 October 2026 is Dussehra (Vijay Dashmi).\n\nSource: Institute Holidays Cal'
+[single|helpdesk-llama3.1:8b|run 1] Q13 ok     3.2s  academic_helpdesk  | 'The slot for the course Autonomous Systems (CSL7650) is E. Source: Finalized Courses List '
+[single|helpdesk-llama3.1:8b|run 1] Q14 ok     4.2s  academic_helpdesk  | 'Slot M1 meets on Monday from 13:00-14:50 for a 2-hour lab session. Source: Slot System AY '
+[single|helpdesk-llama3.1:8b|run 1] Q15 ok     4.1s  academic_helpdesk  | 'The instructor teaching Operating Systems this semester is Susil Kumar Mohanty, and the sl'
+[single|helpdesk-llama3.1:8b|run 1] Q16 ok     4.8s  academic_helpdesk  | 'There is 1 400 level elective floated by the Humanities department in this semester. Sourc'
+[single|helpdesk-llama3.1:8b|run 1] Q17 ok     4.2s  academic_helpdesk  | 'The slot for CSL7360 Computer Vision is I, and it is taught by Deepak Mishra. \n\nSource: Fi'
+[single|helpdesk-llama3.1:8b|run 1] Q18 ok     5.1s  academic_helpdesk  | 'There are 3 programme electives floated by the Mechanical Engineering department for B.Tec'
+[single|helpdesk-llama3.1:8b|run 1] Q19 REF    6.9s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 1] Q20 ok     5.4s  academic_helpdesk  | 'You cannot register for two different courses that run in the same slot.\n\nSource: Course R'
+[single|helpdesk-llama3.1:8b|run 1] Q21 REF    5.3s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 1] Q22 ok     5.9s  academic_helpdesk  | 'This is the draft email. Please review and send it yourself. The e-mail IDs are dummy valu'
+[single|helpdesk-llama3.1:8b|run 1] Q23 ok     5.7s  academic_helpdesk  | 'This is the draft email. Please review and send it yourself. The e-mail IDs are dummy valu'
+[single|helpdesk-llama3.1:8b|run 1] Q24 ok     4.8s  academic_helpdesk  | 'The email ID of the instructor teaching Database Systems is nitin.awathare@iitj-dummy.ac.i'
+[single|helpdesk-llama3.1:8b|run 1] Q25 REF    4.8s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 1] Q26 REF    5.1s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 1] Q27 REF    4.9s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 1] Q28 REF    4.5s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 1] Q29 REF    8.1s  academic_helpdesk  | 'The monthly hostel mess fee is not explicitly mentioned in the provided passages. However,'
+[single|helpdesk-llama3.1:8b|run 1] Q30 REF    4.3s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 2] Q01 ok     5.9s  academic_helpdesk  | 'A student needs to have at least 75% attendance to sit in the Major exam. If the attendanc'
+[single|helpdesk-llama3.1:8b|run 2] Q02 ok     7.2s  academic_helpdesk  | 'According to the UG Curriculum for B.Tech. in Computer Science and Engineering (revised), '
+[single|helpdesk-llama3.1:8b|run 2] Q03 ok     6.0s  academic_helpdesk  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[single|helpdesk-llama3.1:8b|run 2] Q04 ok     4.2s  academic_helpdesk  | 'You must apply for a make-up examination within 10 days from the date of the examination m'
+[single|helpdesk-llama3.1:8b|run 2] Q05 ok     6.1s  academic_helpdesk  | 'The maximum number of credits a B.Tech student can register for in a semester is 25. \n\nSou'
+[single|helpdesk-llama3.1:8b|run 2] Q06 ok     5.0s  academic_helpdesk  | 'The tuition fee per semester for a B.Tech student whose family income is more than 5 lakh '
+[single|helpdesk-llama3.1:8b|run 2] Q07 ok     5.0s  academic_helpdesk  | 'The Major examinations for Semester I of AY 2026-27 are scheduled to take place from 30th '
+[single|helpdesk-llama3.1:8b|run 2] Q08 ok     4.3s  academic_helpdesk  | 'The Minor examination in Semester I 2026-27 is on 15-20 September 2026. \n\nSource: Academic'
+[single|helpdesk-llama3.1:8b|run 2] Q09 ok     3.3s  academic_helpdesk  | 'The timetable for Saturday, 24th October 2026 will follow the Friday slot. \n\nSource: Slot '
+[single|helpdesk-llama3.1:8b|run 2] Q10 ok     6.2s  academic_helpdesk  | 'The minimum CGPA required to graduate from an M.Tech. programme is 5.0. \n\nSource: Academic'
+[single|helpdesk-llama3.1:8b|run 2] Q11 ok     7.9s  academic_helpdesk  | 'According to the Course Registration Guidelines AY 2026-27 Semester I, a B.Tech. student m'
+[single|helpdesk-llama3.1:8b|run 2] Q12 ok     7.4s  academic_helpdesk  | 'The holiday on 20 October 2026 is Dussehra (Vijay Dashmi).\n\nSource: Institute Holidays Cal'
+[single|helpdesk-llama3.1:8b|run 2] Q13 ok     3.2s  academic_helpdesk  | 'The slot for the course Autonomous Systems (CSL7650) is E. \n\nSource: Finalized Courses Lis'
+[single|helpdesk-llama3.1:8b|run 2] Q14 ok     4.0s  academic_helpdesk  | 'Slot M1 meets on Monday from 13:00-14:50 for a 2-hour lab session. Source: Slot System AY '
+[single|helpdesk-llama3.1:8b|run 2] Q15 ok     4.2s  academic_helpdesk  | 'The instructor teaching Operating Systems this semester is Susil Kumar Mohanty, and the co'
+[single|helpdesk-llama3.1:8b|run 2] Q16 ok     5.6s  academic_helpdesk  | 'There is 1 400 level elective floated by the Humanities department in this semester. The c'
+[single|helpdesk-llama3.1:8b|run 2] Q17 ok     4.1s  academic_helpdesk  | 'The slot for CSL7360 Computer Vision is I, and it is taught by Deepak Mishra. Source: Fina'
+[single|helpdesk-llama3.1:8b|run 2] Q18 ok     5.2s  academic_helpdesk  | 'There are 3 programme electives floated by the Mechanical Engineering department for B.Tec'
+[single|helpdesk-llama3.1:8b|run 2] Q19 REF    7.0s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 2] Q20 ok     7.5s  academic_helpdesk  | 'Based on the provided passages, it appears that students can register for only one course '
+[single|helpdesk-llama3.1:8b|run 2] Q21 REF    5.5s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 2] Q22 ok     5.5s  academic_helpdesk  | "This is the draft email. Please review and send it yourself. The instructor's e-mail ID is"
+[single|helpdesk-llama3.1:8b|run 2] Q23 ok    11.1s  academic_helpdesk  | 'The draft email is:\n\nDear Prof. Karan,\n\nI am [Your Name] ([Roll Number]), registered in ME'
+[single|helpdesk-llama3.1:8b|run 2] Q24 ok     5.8s  academic_helpdesk  | 'The email ID of the instructor teaching Database Systems is nitin.awathare@iitj-dummy.ac.i'
+[single|helpdesk-llama3.1:8b|run 2] Q25 REF    4.7s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 2] Q26 REF    5.2s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 2] Q27 REF    4.9s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 2] Q28 REF    4.5s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 2] Q29 REF    8.6s  academic_helpdesk  | 'The monthly hostel mess fee is not explicitly mentioned in the provided passages. However,'
+[single|helpdesk-llama3.1:8b|run 2] Q30 REF    4.4s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 3] Q01 ok     8.7s  academic_helpdesk  | 'According to the Academic Programmes Rules and Regulations (students enrolled from July 20'
+[single|helpdesk-llama3.1:8b|run 3] Q02 ok     7.5s  academic_helpdesk  | 'According to the UG Curriculum for B.Tech. in Computer Science and Engineering (revised), '
+[single|helpdesk-llama3.1:8b|run 3] Q03 ok     6.0s  academic_helpdesk  | 'The total number of credits required for the B.Tech. in Computer Science and Engineering i'
+[single|helpdesk-llama3.1:8b|run 3] Q04 ok     5.4s  academic_helpdesk  | 'You must apply for a make-up examination within 10 days from the date of the examination m'
+[single|helpdesk-llama3.1:8b|run 3] Q05 ok     6.3s  academic_helpdesk  | 'The maximum number of credits a B.Tech student can register for in a semester is 4. \n\nSour'
+[single|helpdesk-llama3.1:8b|run 3] Q06 ok     6.9s  academic_helpdesk  | 'The tuition fee per semester for a B.Tech student whose family income is more than 5 lakh '
+[single|helpdesk-llama3.1:8b|run 3] Q07 ok     6.8s  academic_helpdesk  | 'The Major examinations for Semester I of AY 2026-27 are scheduled to take place from 30th '
+[single|helpdesk-llama3.1:8b|run 3] Q08 ok     6.3s  academic_helpdesk  | 'The Minor examination in Semester I 2026-27 is on 15-20 September 2026. \n\nSource: Academic'
+[single|helpdesk-llama3.1:8b|run 3] Q09 ok     3.4s  academic_helpdesk  | 'The timetable for Saturday, 24th October 2026 will follow the Friday slot.\n\nSource: Slot S'
+[single|helpdesk-llama3.1:8b|run 3] Q10 ok     7.1s  academic_helpdesk  | 'The minimum CGPA required to graduate from an M.Tech. programme is 5.0. \n\nSource: Academic'
+[single|helpdesk-llama3.1:8b|run 3] Q11 ok     6.9s  academic_helpdesk  | 'According to the "Course Registration Guidelines AY 2026-27 Semester I, section \'Important'
+[single|helpdesk-llama3.1:8b|run 3] Q12 ok     7.8s  academic_helpdesk  | 'The holiday on 20 October 2026 is Dussehra (Mahanavami).\n\nSource: Institute Holidays Calen'
+[single|helpdesk-llama3.1:8b|run 3] Q13 ok     3.4s  academic_helpdesk  | 'The slot for the course Autonomous Systems (CSL7650) is E. \n\nSource: Finalized Courses Lis'
+[single|helpdesk-llama3.1:8b|run 3] Q14 ok     4.3s  academic_helpdesk  | 'Slot M1 meets on Monday from 13:00-14:50 for a 2-hour lab session. Source: Slot System AY '
+[single|helpdesk-llama3.1:8b|run 3] Q15 ok     4.2s  academic_helpdesk  | 'The instructor teaching Operating Systems this semester is Susil Kumar Mohanty, and the sl'
+[single|helpdesk-llama3.1:8b|run 3] Q16 ok     5.0s  academic_helpdesk  | 'There is 1 400 level elective floated by the Humanities department in this semester. Sourc'
+[single|helpdesk-llama3.1:8b|run 3] Q17 ok     4.4s  academic_helpdesk  | 'The slot for CSL7360 Computer Vision is I, and it is taught by Deepak Mishra. \n\nSource: Fi'
+[single|helpdesk-llama3.1:8b|run 3] Q18 ok     5.3s  academic_helpdesk  | 'There are 3 programme electives floated by the Mechanical Engineering department for B.Tec'
+[single|helpdesk-llama3.1:8b|run 3] Q19 REF    6.5s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 3] Q20 ok     9.2s  academic_helpdesk  | 'You cannot register for two different courses that run in the same slot. According to the '
+[single|helpdesk-llama3.1:8b|run 3] Q21 REF    5.8s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 3] Q22 ok     5.7s  academic_helpdesk  | 'This is the draft email. Please review and send it yourself. The e-mail IDs are dummy valu'
+[single|helpdesk-llama3.1:8b|run 3] Q23 ok    10.5s  academic_helpdesk  | 'The draft email is:\n\nDear Prof. Karan,\n\nI am [Your Name] ([Roll Number]), registered in ME'
+[single|helpdesk-llama3.1:8b|run 3] Q24 ok     5.0s  academic_helpdesk  | 'The email ID of the instructor teaching Database Systems is nitin.awathare@iitj-dummy.ac.i'
+[single|helpdesk-llama3.1:8b|run 3] Q25 REF    4.9s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 3] Q26 REF    5.4s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 3] Q27 REF    5.1s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 3] Q28 REF    4.7s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+[single|helpdesk-llama3.1:8b|run 3] Q29 REF    9.2s  academic_helpdesk  | 'The monthly hostel mess fee is not explicitly mentioned in the provided passages. However,'
+[single|helpdesk-llama3.1:8b|run 3] Q30 REF    4.5s  academic_helpdesk  | "I don't know the answer to that from the academic documents I have access to. I have logge"
+
+Traces in /home/akshay/Downloads/academic-helpdesk-agent/eval/results/raw_traces.jsonl. Now run: python eval/score.py
+# Evaluation summary
+
+| System | Model | Runs | Accuracy | Groundedness | OOS refusal | False refusal | Routing | Agent logged refusals | Median latency (s) |
+|---|---|---|---|---|---|---|---|---|---|
+| multi | helpdesk-llama3.1:8b | 3 | 77% (69/90) | 90% (43/48) | 100% (21/21) | 0% (0/69) | 87% (78/90) | 95% (18/19) | 5.77 |
+| multi | helpdesk-qwen3:8b | 3 | 84% (76/90) | 100% (58/58) | 86% (18/21) | 6% (4/69) | 93% (84/90) | 74% (14/19) | 59.095 |
+| single | helpdesk-llama3.1:8b | 3 | 69% (62/90) | 93% (38/41) | 100% (21/21) | 6% (4/69) | - | 48% (12/25) | 5.4350000000000005 |
+| single | helpdesk-qwen3:8b | 3 | 79% (71/90) | 100% (54/54) | 81% (17/21) | 4% (3/69) | - | 89% (16/18) | 46.94 |
+
+## Accuracy by category
+
+| System | Model | policy | schedule | email | oos |
+|---|---|---|---|---|---|
+| multi | helpdesk-llama3.1:8b | 81% (29/36) | 54% (13/24) | 75% (9/12) | 100% (18/18) |
+| multi | helpdesk-qwen3:8b | 78% (28/36) | 88% (21/24) | 100% (12/12) | 83% (15/18) |
+| single | helpdesk-llama3.1:8b | 78% (28/36) | 42% (10/24) | 50% (6/12) | 100% (18/18) |
+| single | helpdesk-qwen3:8b | 78% (28/36) | 75% (18/24) | 92% (11/12) | 78% (14/18) |
+
+## Questions whose answers changed across runs
+
+| System | Model | Question | Correct per run | Change |
+|---|---|---|---|---|
+| multi | helpdesk-llama3.1:8b | Q05 | 1 0 1 | correctness |
+| multi | helpdesk-llama3.1:8b | Q07 | 0 0 0 | wording/facts only |
+| multi | helpdesk-llama3.1:8b | Q15 | 1 1 1 | wording/facts only |
+| multi | helpdesk-llama3.1:8b | Q16 | 1 0 0 | correctness |
+| multi | helpdesk-llama3.1:8b | Q22 | 0 0 0 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q04 | 1 1 1 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q05 | 0 0 0 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q07 | 0 1 0 | correctness |
+| multi | helpdesk-qwen3:8b | Q08 | 1 1 1 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q09 | 0 0 0 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q10 | 1 1 1 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q11 | 1 1 1 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q12 | 1 1 1 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q13 | 0 0 0 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q16 | 1 1 1 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q18 | 1 1 1 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q22 | 1 1 1 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q24 | 1 1 1 | wording/facts only |
+| multi | helpdesk-qwen3:8b | Q25 | 1 0 1 | correctness |
+| multi | helpdesk-qwen3:8b | Q26 | 1 0 1 | correctness |
+| multi | helpdesk-qwen3:8b | Q28 | 1 0 1 | correctness |
+| multi | helpdesk-qwen3:8b | Q29 | 1 1 1 | wording/facts only |
+| single | helpdesk-llama3.1:8b | Q05 | 0 1 0 | correctness |
+| single | helpdesk-llama3.1:8b | Q09 | 0 0 0 | wording/facts only |
+| single | helpdesk-llama3.1:8b | Q10 | 1 1 1 | wording/facts only |
+| single | helpdesk-llama3.1:8b | Q15 | 1 1 1 | wording/facts only |
+| single | helpdesk-llama3.1:8b | Q16 | 0 1 0 | correctness |
+| single | helpdesk-llama3.1:8b | Q19 | 0 0 0 | wording/facts only |
+| single | helpdesk-llama3.1:8b | Q23 | 0 0 0 | wording/facts only |
+| single | helpdesk-qwen3:8b | Q05 | 0 0 0 | wording/facts only |
+| single | helpdesk-qwen3:8b | Q07 | 0 0 0 | wording/facts only |
+| single | helpdesk-qwen3:8b | Q08 | 1 1 1 | wording/facts only |
+| single | helpdesk-qwen3:8b | Q09 | 1 0 0 | correctness |
+| single | helpdesk-qwen3:8b | Q10 | 1 1 1 | wording/facts only |
+| single | helpdesk-qwen3:8b | Q13 | 0 0 0 | wording/facts only |
+| single | helpdesk-qwen3:8b | Q16 | 1 1 1 | wording/facts only |
+| single | helpdesk-qwen3:8b | Q17 | 1 1 1 | wording/facts only |
+| single | helpdesk-qwen3:8b | Q19 | 0 0 0 | wording/facts only |
+| single | helpdesk-qwen3:8b | Q22 | 1 1 0 | correctness |
+| single | helpdesk-qwen3:8b | Q23 | 1 1 1 | wording/facts only |
+| single | helpdesk-qwen3:8b | Q24 | 1 1 1 | wording/facts only |
+| single | helpdesk-qwen3:8b | Q28 | 1 0 1 | correctness |
+| single | helpdesk-qwen3:8b | Q29 | 0 0 1 | correctness |
+| single | helpdesk-qwen3:8b | Q30 | 0 1 1 | correctness |
+
+Wrote eval/results/summary.md, per_question.csv, unstable_questions.csv
+Evaluation took 44 minutes.
